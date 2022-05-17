@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name "MLX90621ESF-BAB-000-SP")(type "Legacy")(uri "${KIPRJMOD}/LIB_MLX90621ESF-BAB-000-SP/MLX90621ESF-BAB-000-SP/KiCad/MLX90621ESF-BAB-000-SP.lib")(options "")(descr ""))
+  (lib (name "NCV8775CDT33RKG")(type "Legacy")(uri "${KIPRJMOD}/LIB_NCV8775CDT33RKG/NCV8775CDT33RKG/KiCad/NCV8775CDT33RKG.lib")(options "")(descr ""))
+  (lib (name "power")(type "KiCad")(uri "${KIPRJMOD}/power.kicad_sym")(options "")(descr ""))
+  (lib (name "STM32L4P5RET6")(type "Legacy")(uri "${KIPRJMOD}/PUTM_Kicad_Library/SYMBOLS/STM32L4P5RET6.lib")(options "")(descr ""))
+  (lib (name "PESD2CAN_215")(type "Legacy")(uri "${KIPRJMOD}/LIB_PESD2CAN,215/PESD2CAN,215/KiCad/PESD2CAN_215.lib")(options "")(descr ""))
+  (lib (name "Regulator_Linear")(type "KiCad")(uri "${KIPRJMOD}/NCV8775C/Regulator_Linear.kicad_sym")(options "")(descr ""))
+)

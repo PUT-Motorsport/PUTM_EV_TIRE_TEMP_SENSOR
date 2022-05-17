@@ -1,0 +1,18 @@
+.PESD2CAN_215 :1 ;NXP PESD2CAN,215 Dual Bi-Directional ESD Protection Diode, 230W peak, 3-Pin SOT23 (TO-236AB)
+SOT95P230X110-3N
+*STM Z
+*NGS
+*PLB 1="CATHODE 1" 2="CATHODE 2" 3="COMMON CATHODE"
+*MXP 3
+*DFN PESD2CAN_215
+~!Manufacturer_Name (Nexperia)
+~!Manufacturer_Part_Number (PESD2CAN,215)
+~!Mouser Part Number (771-PESD2CAN-T/R)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Nexperia/PESD2CAN215?qs=LOCUfHb8d9sqg7TaLUP2JQ%3D%3D)
+~!Arrow Part Number (PESD2CAN,215)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/pesd2can215/nexperia?region=nac)
+~!Link Datasheet (https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/5df5edafdc67e6ae251d12d61f18e7bd.pdf)
+~!Height (1.1mm)
+~!3D_Model (PESD2CAN,215)
+PESD2CAN_215
+1.1!U 2.1!U 3.1!U 

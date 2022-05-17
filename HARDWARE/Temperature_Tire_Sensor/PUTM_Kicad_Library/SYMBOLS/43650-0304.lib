@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 43650-0304
+#/351160/336083/2.49/5/4/Connector
+DEF 43650-0304 J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "43650-0304" 750 200 50 H V L CNN
+F2 "436500304" 750 100 50 H I L CNN
+F3 "https://www.molex.com/pdm_docs/sd/436500304_sd.pdf" 750 0 50 H I L CNN
+F4 "Micro-Fit 3.0 Vertical Header, 3.00mm Pitch, Single Row,  Circuits, with PCB Polarizing Peg, Gold, Glow-Wire Capable, Black" 750 -100 50 H I L CNN "Description"
+F5 "5.57" 750 -200 50 H I L CNN "Height"
+F6 "Molex" 750 -300 50 H I L CNN "Manufacturer_Name"
+F7 "43650-0304" 750 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "538-43650-0304" 750 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Molex/43650-0304?qs=9hH17QIRXQ2eCwHthRjnYQ%3D%3D" 750 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 750 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 750 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1 1 900 -200 200 L 50 50 0 0 P
+X 2 2 900 -100 200 L 50 50 0 0 P
+X 3 3 900 0 200 L 50 50 0 0 P
+X MH1 MH1 0 -100 200 R 50 50 0 0 P
+X MH2 MH2 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

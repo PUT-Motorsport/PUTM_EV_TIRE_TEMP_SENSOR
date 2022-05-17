@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name "MLX")(type "KiCad")(uri "${KIPRJMOD}/LIB_MLX90621ESF-BAB-000-SP/MLX90621ESF-BAB-000-SP/KiCad")(options "")(descr ""))
+  (lib (name "BUTTON")(type "KiCad")(uri "${KIPRJMOD}/434781025816/KiCad")(options "")(descr ""))
+  (lib (name "TSOT23-5")(type "KiCad")(uri "${KIPRJMOD}/Package_TO_SOT_SMD.pretty")(options "")(descr ""))
+  (lib (name "SOLDER_PAD_01x04")(type "KiCad")(uri "${KIPRJMOD}/SOLDER_PAD_01x04.pretty")(options "")(descr ""))
+)

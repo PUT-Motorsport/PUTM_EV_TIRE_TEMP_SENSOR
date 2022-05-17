@@ -1,0 +1,9 @@
+Manufacturer=Nexperia
+PartNumber=PESD2CAN,215
+PartCategory=Zener Diode
+PackageCategory=SOT23 (3-Pin)
+PinCount=3
+Version=5.1
+Released=2016-11-24 22:03:59
+Downloaded=2022-05-03 18:57:07
+3D=Y

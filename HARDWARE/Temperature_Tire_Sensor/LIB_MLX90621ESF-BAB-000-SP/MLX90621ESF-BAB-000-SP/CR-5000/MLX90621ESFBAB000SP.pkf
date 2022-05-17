@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "MLX90621ESFBAB000SP"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "MLX90621ESFBAB000SP")
+        (spec "default")
+    )
+)

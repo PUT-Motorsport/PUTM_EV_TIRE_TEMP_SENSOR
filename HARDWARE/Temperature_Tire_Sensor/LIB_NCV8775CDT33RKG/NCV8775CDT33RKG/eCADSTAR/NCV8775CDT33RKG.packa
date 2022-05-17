@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "NCV8775CDT33RKG"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-12-02-08:03:07)
+    (mountForm default
+        (footprintRef "NCV8775CDT33RKG")
+        (spec "System")
+    )
+)

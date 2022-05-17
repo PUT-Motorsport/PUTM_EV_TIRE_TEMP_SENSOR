@@ -1,0 +1,18 @@
+.434781025816 :1 ;Tact Switch,Tactile Switch SPST-NO Top Actuated Surface Mount
+"434781025816"
+*STM S
+*NGS
+*PLB 1="COM" 2="NO"
+*MXP 2
+*DFN 434781025816
+~!Manufacturer_Name (Wurth Elektronik)
+~!Manufacturer_Part_Number (434781025816)
+~!Mouser Part Number (710-434781025816)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/434781025816?qs=iLbezkQI%252BsgCw%252BikaZDemA%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.we-online.com/catalog/datasheet/434781025816.pdf)
+~!Height (2.6mm)
+~!3D_Model (434781025816)
+"434781025816"
+1.1!U 2.1!U 

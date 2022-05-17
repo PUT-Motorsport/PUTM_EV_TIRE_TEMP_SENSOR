@@ -1,0 +1,9 @@
+Manufacturer=onsemi
+PartNumber=NCV8775CDT33RKG
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=5
+Version=1.2
+Released=2021-12-02 08:03:07
+Downloaded=2022-05-02 19:05:57
+3D=N

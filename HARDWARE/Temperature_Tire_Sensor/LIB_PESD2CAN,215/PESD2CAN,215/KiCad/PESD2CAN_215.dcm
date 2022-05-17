@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PESD2CAN,215
+D NXP PESD2CAN,215 Dual Bi-Directional ESD Protection Diode, 230W peak, 3-Pin SOT23 (TO-236AB)
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/5df5edafdc67e6ae251d12d61f18e7bd.pdf
+$ENDCMP
+#
+#End Doc Library

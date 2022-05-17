@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'NCV8775CDT33RKG'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "onsemi", "NCV8775CDT33RKG" (!) = "", "NCV8775CDT33RKG", "Other", "863-NCV8775CDT33RKG", "https://www.mouser.co.uk/ProductDetail/onsemi/NCV8775CDT33RKG?qs=GedFDFLaBXGnbrDChUd5HQ%3D%3D", "", "", "LDO Voltage Regulators 3.3V/350MA LDO W RO/D", "https://www.onsemi.com/pdf/datasheet/ncv8775c-d.pdf", "2.38 mm"
+END_PART
+
+END.

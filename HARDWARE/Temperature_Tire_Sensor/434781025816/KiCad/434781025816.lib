@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 434781025816
+#/15355069/843695/2.49/2/3/Switch
+DEF 434781025816 S 0 30 Y Y 1 F N
+F0 "S" 750 300 50 H V L CNN
+F1 "434781025816" 750 200 50 H V L CNN
+F2 "434781025816" 750 100 50 H I L CNN
+F3 "https://www.we-online.com/catalog/datasheet/434781025816.pdf" 750 0 50 H I L CNN
+F4 "Tact Switch,Tactile Switch SPST-NO Top Actuated Surface Mount" 750 -100 50 H I L CNN "Description"
+F5 "2.6" 750 -200 50 H I L CNN "Height"
+F6 "Wurth Elektronik" 750 -300 50 H I L CNN "Manufacturer_Name"
+F7 "434781025816" 750 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "710-434781025816" 750 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/434781025816?qs=iLbezkQI%252BsgCw%252BikaZDemA%3D%3D" 750 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 750 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 750 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X COM 1 0 0 200 R 50 50 0 0 P
+X NO 2 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

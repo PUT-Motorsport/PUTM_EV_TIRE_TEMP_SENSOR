@@ -1,0 +1,72 @@
+(Japanese_coding: sjis)
+(function "ECS_527081"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2016-11-24-22:03:59)
+    (utime 2021-10-25-09:42:45)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "PESD2CAN_215")
+)
+
+
+(pinAssign "ECS_527081"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2016-11-24-22:03:59)
+    (utime 2021-10-25-09:42:45)
+    (interface
+        (port "1" (symbPinId 1) (portName "CATHODE_1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "CATHODE_2") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "COMMON_CATHODE") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_527081")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "PESD2CAN_215")
+)
+
+
+(part "PESD2CAN_215"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2016-11-24-22:03:59)
+    (utime 2021-10-25-09:42:45)
+    (packageRef "PESD2CAN_215")
+    (pinAssignRef "ECS_527081")
+    (interface
+        (port "1" (symbPinId 1) (portName "CATHODE_1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "CATHODE_2") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "COMMON_CATHODE") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "Z")
+    (property "description" "NXP PESD2CAN,215 Dual Bi-Directional ESD Protection Diode, 230W peak, 3-Pin SOT23 (TO-236AB)")
+    (property "Manufacturer_Name" "Nexperia")
+    (property "Manufacturer_Part_Number" "PESD2CAN,215")
+    (property "Mouser_Part_Number" "771-PESD2CAN-T/R")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PESD2CAN215?qs=LOCUfHb8d9sqg7TaLUP2JQ%3D%3D")
+    (property "Arrow_Part_Number" "PESD2CAN,215")
+    (property "Arrow_Price/Stock" "https://www.arrow.com/en/products/pesd2can215/nexperia?region=nac")
+    (property "Datasheet_Link" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/5df5edafdc67e6ae251d12d61f18e7bd.pdf")
+    (property "compAreaTopHeight" 1.1)
+)
+
+

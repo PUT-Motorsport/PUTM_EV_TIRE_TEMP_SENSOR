@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MLX90621ESF_BAB_000_SP'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Melexis", "MLX90621ESF-BAB-000-SP" (!) = "", "MLX90621ESFBAB000SP", "Other", "482-90621ESFBAB000SP", "https://www.mouser.co.uk/ProductDetail/Melexis/MLX90621ESF-BAB-000-SP/?qs=KuGPmAKtFKVFHvV1D3wVtw%3D%3D", "", "", "Board Mount Temperature Sensors 16X4 thermal array sensor, 3Volt, 60deg total FOV", "https://www.melexis.com/-/media/files/documents/datasheets/mlx90621-datasheet-melexis.pdf", "11.4 mm"
+END_PART
+
+END.

@@ -1,0 +1,17 @@
+.NCV8775CDT33RKG :1 ;LDO Voltage Regulators 3.3V/350MA LDO W RO/D
+NCV8775CDT33RKG
+*STM IC
+*NGS
+*PLB 1="VIN" 2="RO" 3="GND" 4="D" 5="VOUT"
+*MXP 5
+*DFN NCV8775CDT33RKG
+~!Manufacturer_Name (onsemi)
+~!Manufacturer_Part_Number (NCV8775CDT33RKG)
+~!Mouser Part Number (863-NCV8775CDT33RKG)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/onsemi/NCV8775CDT33RKG?qs=GedFDFLaBXGnbrDChUd5HQ%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.onsemi.com/pdf/datasheet/ncv8775c-d.pdf)
+~!Height (2.38mm)
+NCV8775CDT33RKG
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 

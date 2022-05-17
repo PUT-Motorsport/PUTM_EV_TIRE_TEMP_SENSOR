@@ -1,0 +1,118 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "MLX90621ESF-BAB-000-SP"
+   (description "Board Mount Temperature Sensors 16X4 thermal array sensor, 3Volt, 60deg total FOV")
+   (family "ANA")
+   (package "MLX90621ESFBAB000SP")
+   (attribute "Datasheet Link" "https://www.melexis.com/-/media/files/documents/datasheets/mlx90621-datasheet-melexis.pdf")
+   (attribute "Geometry.Height" "11.4mm")
+   (attribute "Manufacturer_Name" "Melexis")
+   (attribute "Manufacturer_Part_Number" "MLX90621ESF-BAB-000-SP")
+   (attribute "Mouser Part Number" "482-90621ESFBAB000SP")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Melexis/MLX90621ESF-BAB-000-SP/?qs=KuGPmAKtFKVFHvV1D3wVtw%3D%3D")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "MLX90621ESF-BAB-000-SP")
+    (pin "SCL" 1 PS)
+    (pin "SDA" 2 PS)
+    (pin "VDD" 3 PS)
+    (pin "GND" 4 PS)
+   )
+  )
+  (symbol "MLX90621ESF-BAB-000-SP"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 400) (pt 800 400) (pt 800 -400) (pt 200 -400) (pt 200 400) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 1000 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 500 600) (rot 90) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 500 -600) (rot 90) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "MLX90621ESFBAB000SP"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -8.19 5.65)
+      (pt 3.11 5.65)
+      (pt 3.11 -5.65)
+      (pt -8.19 -5.65)
+      (pt -8.19 5.65))))
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -7.19 0)
+      (arc (pt -7.190 0.000) (pt -7.190 -4.650) (pt 2.110 4.650) (start 180.0) (sweep 180.0))
+      (pt 2.11 0)
+      (arc (pt 2.110 0.000) (pt -7.190 -4.650) (pt 2.110 4.650) (start 180.0) (sweep .0))
+      (pt -7.19 0))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -7.19 0)
+      (arc (pt -7.190 0.000) (pt -7.190 -4.650) (pt 2.110 4.650) (start 180.0) (sweep 180.0))
+      (pt 2.11 0)
+      (arc (pt 2.110 0.000) (pt -7.190 -4.650) (pt 2.110 4.650) (start 180.0) (sweep .0))
+      (pt -7.19 0))))
+   (leg 1 (pt 0.000 0.000) (padstack 1))
+   (leg 2 (pt -2.540 2.540) (padstack 0))
+   (leg 3 (pt -5.080 0.000) (padstack 0))
+   (leg 4 (pt -2.540 -2.540) (padstack 0))
+   (padstack 0
+    (hole 0.65)
+    (plated true)
+    (pad (layer TCOP) (round 1.192))
+    (pad (layer INNER) (round 1.192))
+    (pad (layer BCOP) (round 1.192))
+   )
+   (padstack 1
+    (hole 0.65)
+    (plated true)
+    (pad (layer TCOP) (square 1.192))
+    (pad (layer INNER) (round 1.192))
+    (pad (layer BCOP) (square 1.192))
+   )
+   (model "MLX90621ESF-BAB-000-SP.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

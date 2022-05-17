@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '434781025816'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Wurth Elektronik", "434781025816" (!) = "", "434781025816", "Other", "710-434781025816", "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/434781025816?qs=iLbezkQI%252BsgCw%252BikaZDemA%3D%3D", "", "", "Tact Switch,Tactile Switch SPST-NO Top Actuated Surface Mount", "https://www.we-online.com/catalog/datasheet/434781025816.pdf", "2.6 mm"
+END_PART
+
+END.

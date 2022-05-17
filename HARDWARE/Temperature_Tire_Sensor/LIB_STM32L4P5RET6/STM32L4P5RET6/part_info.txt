@@ -1,0 +1,9 @@
+Manufacturer=STMicroelectronics
+PartNumber=STM32L4P5RET6
+PartCategory=Integrated Circuit
+PackageCategory=Quad Flat Packages
+PinCount=64
+Version=1.1
+Released=2020-10-14 13:55:19
+Downloaded=2022-05-02 17:59:37
+3D=Y

@@ -1,0 +1,9 @@
+Manufacturer=Melexis
+PartNumber=MLX90621ESF-BAB-000-SP
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=4
+Version=1.1
+Released=2019-04-01 16:59:59
+Downloaded=2022-05-02 18:23:26
+3D=Y

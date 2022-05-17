@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'PESD2CAN_215'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Nexperia", "PESD2CAN,215" (!) = "", "SOT95P230X110-3N", "SOT23 (3-Pin)", "771-PESD2CAN-T/R", "https://www.mouser.co.uk/ProductDetail/Nexperia/PESD2CAN215?qs=LOCUfHb8d9sqg7TaLUP2JQ%3D%3D", "PESD2CAN,215", "https://www.arrow.com/en/products/pesd2can215/nexperia?region=nac", "NXP PESD2CAN,215 Dual Bi-Directional ESD Protection Diode, 230W peak, 3-Pin SOT23 (TO-236AB)", "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/5df5edafdc67e6ae251d12d61f18e7bd.pdf", "1.1 mm"
+END_PART
+
+END.

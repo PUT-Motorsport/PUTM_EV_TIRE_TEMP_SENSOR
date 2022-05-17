@@ -1,0 +1,18 @@
+.MLX90621ESF-BAB-000-SP :1 ;Board Mount Temperature Sensors 16X4 thermal array sensor, 3Volt, 60deg total FOV
+MLX90621ESFBAB000SP
+*STM IC
+*NGS
+*PLB 1="SCL" 2="SDA" 3="VDD" 4="GND"
+*MXP 4
+*DFN MLX90621ESF-BAB-000-SP
+~!Manufacturer_Name (Melexis)
+~!Manufacturer_Part_Number (MLX90621ESF-BAB-000-SP)
+~!Mouser Part Number (482-90621ESFBAB000SP)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Melexis/MLX90621ESF-BAB-000-SP/?qs=KuGPmAKtFKVFHvV1D3wVtw%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.melexis.com/-/media/files/documents/datasheets/mlx90621-datasheet-melexis.pdf)
+~!Height (11.4mm)
+~!3D_Model (MLX90621ESF-BAB-000-SP)
+MLX90621ESF-BAB-000-SP
+1.1!U 2.1!U 3.1!U 4.1!U 
