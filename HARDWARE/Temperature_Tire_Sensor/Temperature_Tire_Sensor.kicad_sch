@@ -2918,16 +2918,16 @@
       (reference "FB2") (unit 1) (value "60R@100MHz") (footprint "Inductor_SMD:L_0603_1608Metric")
     )
     (path "/ab3e0d45-ad5b-42a1-ab02-8fee32ad804e/8cb19d26-9255-4002-b59a-a86a142da253"
-      (reference "H1") (unit 1) (value "Mounting_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_Pad_Via")
+      (reference "H1") (unit 1) (value "Mounting_Pad") (footprint "MountingHole:MountingHole_2.7mm_M2.5_ISO14580_Pad")
     )
     (path "/ab3e0d45-ad5b-42a1-ab02-8fee32ad804e/ee8c62e7-cc5c-4fa5-a398-feafb8f6d2cf"
-      (reference "H2") (unit 1) (value "Mounting_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_Pad_Via")
+      (reference "H2") (unit 1) (value "Mounting_Pad") (footprint "MountingHole:MountingHole_2.7mm_M2.5_ISO14580_Pad")
     )
     (path "/ab3e0d45-ad5b-42a1-ab02-8fee32ad804e/abab9b09-433f-49b9-845e-565b1e0a7e63"
-      (reference "H3") (unit 1) (value "Mounting_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_Pad_Via")
+      (reference "H3") (unit 1) (value "Mounting_Pad") (footprint "MountingHole:MountingHole_2.7mm_M2.5_ISO14580_Pad")
     )
     (path "/ab3e0d45-ad5b-42a1-ab02-8fee32ad804e/ea4cd57a-5f98-440e-a784-91255c8e29cb"
-      (reference "H4") (unit 1) (value "Mounting_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_Pad_Via")
+      (reference "H4") (unit 1) (value "Mounting_Pad") (footprint "MountingHole:MountingHole_2.7mm_M2.5_ISO14580_Pad")
     )
     (path "/713d6cf4-1f7a-4caf-ad88-b899c0e16438/aeaac0cf-10d2-42ea-addd-39d2c320ddd6"
       (reference "IC1") (unit 1) (value "MLX90621ESF-BAB-000-SP") (footprint "MLX:MLX90621ESFBAB000SP")
