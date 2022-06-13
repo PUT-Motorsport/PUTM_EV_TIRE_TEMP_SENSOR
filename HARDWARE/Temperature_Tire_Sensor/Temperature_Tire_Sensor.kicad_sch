@@ -2249,7 +2249,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 255.27 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 6b75ba83-c0dd-402c-a450-6a4ec0ffc35b)
-    (property "Reference" "#FLG?" (id 0) (at 255.27 80.645 0)
+    (property "Reference" "#FLG0105" (id 0) (at 255.27 80.645 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (id 1) (at 255.27 77.47 0)
@@ -2692,7 +2692,7 @@
       (reference "#FLG0104") (unit 1) (value "PWR_FLAG") (footprint "")
     )
     (path "/6b75ba83-c0dd-402c-a450-6a4ec0ffc35b"
-      (reference "#FLG?") (unit 1) (value "PWR_FLAG") (footprint "")
+      (reference "#FLG0105") (unit 1) (value "PWR_FLAG") (footprint "")
     )
     (path "/eca12880-8c40-40c5-807d-722bb0a0f946"
       (reference "#PWR01") (unit 1) (value "GND") (footprint "")
