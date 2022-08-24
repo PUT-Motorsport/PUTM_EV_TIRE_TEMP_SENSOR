@@ -1,0 +1,22 @@
+/home/mateusz/st/stm32cubeide_1.9.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.linux64_1.0.0.202111181127/tools/arm-none-eabi/include/c++/10.3.1/cmath:463:3:constexpr float std::sqrt(float)	16	static
+../Core/Src/MLX90621_API.cpp:30:5:int MLX90621_DumpEE(uint8_t*)	16	static
+../Core/Src/MLX90621_API.cpp:36:5:int MLX90621_GetFrameData(uint16_t*)	32	static
+../Core/Src/MLX90621_API.cpp:45:5:int MLX90621_Configure(uint8_t*)	24	static
+../Core/Src/MLX90621_API.cpp:64:5:int MLX90621_GetOscillatorTrim(uint16_t*)	32	static
+../Core/Src/MLX90621_API.cpp:73:5:int MLX90621_GetConfiguration(uint16_t*)	32	static
+../Core/Src/MLX90621_API.cpp:83:5:int MLX90621_ExtractParameters(uint8_t*, paramsMLX90621*)	24	static
+../Core/Src/MLX90621_API.cpp:100:5:int MLX90621_SetResolution(uint8_t)	32	static
+../Core/Src/MLX90621_API.cpp:121:5:int MLX90621_GetCurResolution()	24	static
+../Core/Src/MLX90621_API.cpp:139:5:int MLX90621_SetRefreshRate(uint8_t)	32	static
+../Core/Src/MLX90621_API.cpp:160:5:int MLX90621_GetRefreshRate()	24	static
+../Core/Src/MLX90621_API.cpp:178:6:void MLX90621_CalculateTo(uint16_t*, const paramsMLX90621*, float, float, float*)	72	static
+../Core/Src/MLX90621_API.cpp:239:6:void MLX90621_GetImage(uint16_t*, const paramsMLX90621*, float*)	48	static
+../Core/Src/MLX90621_API.cpp:281:7:float MLX90621_GetTa(uint16_t*, const paramsMLX90621*)	24	static
+../Core/Src/MLX90621_API.cpp:304:6:void ExtractPTATParameters(uint8_t*, paramsMLX90621*)	40	static
+../Core/Src/MLX90621_API.cpp:348:6:void ExtractTgcParameters(uint8_t*, paramsMLX90621*)	24	static
+../Core/Src/MLX90621_API.cpp:358:6:void ExtractKsTaParameters(uint8_t*, paramsMLX90621*)	24	static
+../Core/Src/MLX90621_API.cpp:373:6:void ExtractKsToParameters(uint8_t*, paramsMLX90621*)	24	static
+../Core/Src/MLX90621_API.cpp:392:6:void ExtractAlphaParameters(uint8_t*, paramsMLX90621*)	56	static
+../Core/Src/MLX90621_API.cpp:425:6:void ExtractOffsetParameters(uint8_t*, paramsMLX90621*)	48	static
+../Core/Src/MLX90621_API.cpp:475:5:int MLX90621_AverageTo(const float*, uint8_t*)	40	static
+/home/mateusz/st/stm32cubeide_1.9.0/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.10.3-2021.10.linux64_1.0.0.202111181127/tools/arm-none-eabi/include/c++/10.3.1/cmath:415:5:constexpr typename __gnu_cxx::__promote_2<_Tp, _Up>::__type std::pow(_Tp, _Up) [with _Tp = int; _Up = double]	24	static
