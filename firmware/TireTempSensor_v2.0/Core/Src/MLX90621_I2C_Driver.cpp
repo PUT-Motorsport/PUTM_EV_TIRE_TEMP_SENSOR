@@ -69,11 +69,11 @@ int MLX90621_I2CRead(uint8_t slaveAddr,uint8_t command, uint8_t startAddress, ui
     sa = (slaveAddr << 1);
     
 
-    if(Custom_HAL_I2C_Mem_Read(&hi2c2, sa, command, startAddress, addressStep, nMemAddressRead, i2cData, 2*nMemAddressRead, 100) != HAL_OK)
+   /* if(Custom_HAL_I2C_Mem_Read(&hi2c2, sa, command, startAddress, addressStep, nMemAddressRead, i2cData, 2*nMemAddressRead, 100) != HAL_OK)
     {
     	return -1;
     }
-    
+    */
     for(cnt=0; cnt < nMemAddressRead; cnt++)
     {
         i = cnt << 1;
