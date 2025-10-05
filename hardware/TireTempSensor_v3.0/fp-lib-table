@@ -1,4 +1,5 @@
 (fp_lib_table
+  (version 7)
   (lib (name "Mosfet")(type "KiCad")(uri "${KIPRJMOD}/Mosfet")(options "")(descr ""))
   (lib (name "IRSensor")(type "KiCad")(uri "${KIPRJMOD}/IRSensor")(options "")(descr ""))
   (lib (name "Button")(type "KiCad")(uri "${KIPRJMOD}/Button")(options "")(descr ""))
@@ -6,4 +7,5 @@
   (lib (name "Package_TO_SOT_SMD")(type "KiCad")(uri "${KIPRJMOD}/Package_TO_SOT_SMD.pretty")(options "")(descr ""))
   (lib (name "logo")(type "KiCad")(uri "${KIPRJMOD}/PUTM_Kicad_Library/FOOTPRINTS/Logos.pretty")(options "")(descr ""))
   (lib (name "mylogo")(type "KiCad")(uri "${KIPRJMOD}/MyLogo")(options "")(descr ""))
+  (lib (name "footprint")(type "KiCad")(uri "${KIPRJMOD}/include/footprint")(options "")(descr ""))
 )
