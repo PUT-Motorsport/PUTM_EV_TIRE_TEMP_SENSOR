@@ -519,9 +519,31 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 127.635 88.265)
+		(end 187.96 119.38)
+		(stroke
+			(width 1)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 34ab84c5-9790-4d56-9072-3ea9933a4911)
+	)
+	(text "Potrzebne???\n"
+		(exclude_from_sim no)
+		(at 147.32 125.095 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6b9ffb7a-785f-48bf-b41a-3824e45c3d37")
+	)
 	(wire
 		(pts
-			(xy 146.05 96.52) (xy 146.05 92.71)
+			(xy 160.02 98.425) (xy 160.02 94.615)
 		)
 		(stroke
 			(width 0)
@@ -531,7 +553,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 96.52) (xy 161.29 92.71)
+			(xy 104.14 97.155) (xy 104.14 93.345)
 		)
 		(stroke
 			(width 0)
@@ -541,7 +563,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 96.52) (xy 130.81 92.71)
+			(xy 144.78 98.425) (xy 144.78 94.615)
 		)
 		(stroke
 			(width 0)
@@ -572,7 +594,7 @@
 	)
 	(hierarchical_label "LED_OK"
 		(shape input)
-		(at 161.29 92.71 0)
+		(at 104.14 93.345 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -583,7 +605,7 @@
 	)
 	(hierarchical_label "LED_WAR1"
 		(shape input)
-		(at 130.81 92.71 0)
+		(at 144.78 94.615 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -594,7 +616,7 @@
 	)
 	(hierarchical_label "LED_WAR2"
 		(shape input)
-		(at 146.05 92.71 0)
+		(at 160.02 94.615 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -670,16 +692,16 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 130.81 99.06 0)
+		(at 144.78 100.965 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17e28c58-a9d5-45a7-a65e-a7ed3f9fbf3a")
 		(property "Reference" "R7"
-			(at 133.35 97.7899 0)
+			(at 147.32 99.6949 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -688,7 +710,7 @@
 			)
 		)
 		(property "Value" "1k5"
-			(at 133.35 100.3299 0)
+			(at 147.32 102.2349 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -697,7 +719,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 130.81 99.06 0)
+			(at 144.78 100.965 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -706,7 +728,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 130.81 99.06 0)
+			(at 144.78 100.965 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -715,7 +737,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 130.81 99.06 0)
+			(at 144.78 100.965 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -739,7 +761,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 146.05 106.68 0)
+		(at 160.02 108.585 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -748,7 +770,7 @@
 		(fields_autoplaced yes)
 		(uuid "18afc543-878d-4efd-97f5-9a8ba0b70aa4")
 		(property "Reference" "#PWR0133"
-			(at 146.05 113.03 0)
+			(at 160.02 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -757,7 +779,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 146.05 111.76 0)
+			(at 160.02 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -765,7 +787,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 106.68 0)
+			(at 160.02 108.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -774,7 +796,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 106.68 0)
+			(at 160.02 108.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -783,7 +805,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 106.68 0)
+			(at 160.02 108.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -804,16 +826,16 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 146.05 104.14 90)
+		(at 160.02 106.045 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "194b59a7-90a0-4700-a362-19b7e4431368")
 		(property "Reference" "D4"
-			(at 148.59 102.8699 90)
+			(at 162.56 104.7749 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -822,7 +844,7 @@
 			)
 		)
 		(property "Value" "YELLOW"
-			(at 148.59 105.4099 90)
+			(at 162.56 107.3149 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -831,7 +853,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
-			(at 146.05 104.14 90)
+			(at 160.02 106.045 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -840,7 +862,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 104.14 90)
+			(at 160.02 106.045 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -849,7 +871,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 104.14 0)
+			(at 160.02 106.045 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1011,7 +1033,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51b074ac-ef52-4620-8876-c424dbf39982")
@@ -1076,7 +1098,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 130.81 106.68 0)
+		(at 144.78 108.585 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1085,7 +1107,7 @@
 		(fields_autoplaced yes)
 		(uuid "7150dd07-d461-44b2-b7d3-1a2b7a862eb5")
 		(property "Reference" "#PWR0132"
-			(at 130.81 113.03 0)
+			(at 144.78 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1094,7 +1116,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.81 111.76 0)
+			(at 144.78 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1102,7 +1124,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 106.68 0)
+			(at 144.78 108.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1111,7 +1133,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 106.68 0)
+			(at 144.78 108.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1120,7 +1142,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 130.81 106.68 0)
+			(at 144.78 108.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1206,16 +1228,16 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 130.81 104.14 90)
+		(at 144.78 106.045 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b503baab-4c8a-4949-949f-5ba82aee9dbd")
 		(property "Reference" "D3"
-			(at 133.35 102.8699 90)
+			(at 147.32 104.7749 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1224,7 +1246,7 @@
 			)
 		)
 		(property "Value" "YELLOW"
-			(at 133.35 105.4099 90)
+			(at 147.32 107.3149 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1233,7 +1255,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
-			(at 130.81 104.14 90)
+			(at 144.78 106.045 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1242,7 +1264,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 130.81 104.14 90)
+			(at 144.78 106.045 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1251,7 +1273,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 130.81 104.14 0)
+			(at 144.78 106.045 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1275,7 +1297,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 161.29 99.06 0)
+		(at 104.14 99.695 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1284,7 +1306,7 @@
 		(fields_autoplaced yes)
 		(uuid "b53e7586-4270-4e3a-bf4f-17100a36f7e8")
 		(property "Reference" "R9"
-			(at 163.83 97.7899 0)
+			(at 106.68 98.4249 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1293,7 +1315,7 @@
 			)
 		)
 		(property "Value" "1k5"
-			(at 163.83 100.3299 0)
+			(at 106.68 100.9649 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1302,7 +1324,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 161.29 99.06 0)
+			(at 104.14 99.695 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1311,7 +1333,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 161.29 99.06 0)
+			(at 104.14 99.695 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1320,7 +1342,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 161.29 99.06 0)
+			(at 104.14 99.695 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1344,7 +1366,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 161.29 104.14 90)
+		(at 104.14 104.775 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1353,7 +1375,7 @@
 		(fields_autoplaced yes)
 		(uuid "b9825a31-ddf8-49e4-83cd-369858badd0c")
 		(property "Reference" "D5"
-			(at 163.83 102.8699 90)
+			(at 106.68 103.5049 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1362,7 +1384,7 @@
 			)
 		)
 		(property "Value" "GREEN"
-			(at 163.83 105.4099 90)
+			(at 106.68 106.0449 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1371,7 +1393,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
-			(at 161.29 104.14 90)
+			(at 104.14 104.775 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1380,7 +1402,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 161.29 104.14 90)
+			(at 104.14 104.775 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1389,7 +1411,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 161.29 104.14 0)
+			(at 104.14 104.775 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1413,7 +1435,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 161.29 106.68 0)
+		(at 104.14 107.315 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1422,7 +1444,7 @@
 		(fields_autoplaced yes)
 		(uuid "cd612336-0bb4-44f1-ab49-71657be0dc32")
 		(property "Reference" "#PWR0135"
-			(at 161.29 113.03 0)
+			(at 104.14 113.665 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1431,7 +1453,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 161.29 111.76 0)
+			(at 104.14 112.395 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1439,7 +1461,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 106.68 0)
+			(at 104.14 107.315 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1448,7 +1470,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 106.68 0)
+			(at 104.14 107.315 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1457,7 +1479,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 161.29 106.68 0)
+			(at 104.14 107.315 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1478,16 +1500,16 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 146.05 99.06 0)
+		(at 160.02 100.965 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1d07f77-881a-4220-a312-670fc3f108e7")
 		(property "Reference" "R8"
-			(at 148.59 97.7899 0)
+			(at 162.56 99.6949 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1496,7 +1518,7 @@
 			)
 		)
 		(property "Value" "1k5"
-			(at 148.59 100.3299 0)
+			(at 162.56 102.2349 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1505,7 +1527,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 146.05 99.06 0)
+			(at 160.02 100.965 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1514,7 +1536,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 146.05 99.06 0)
+			(at 160.02 100.965 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1523,7 +1545,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 99.06 0)
+			(at 160.02 100.965 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1620,7 +1642,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df5055af-e22c-457b-9688-10f05036ad48")
