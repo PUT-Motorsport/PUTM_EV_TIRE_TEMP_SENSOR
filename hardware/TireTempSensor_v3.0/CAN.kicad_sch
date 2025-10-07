@@ -1932,7 +1932,7 @@
 	)
 	(polyline
 		(pts
-			(xy 108.585 17.145) (xy 107.95 193.04)
+			(xy 108.585 45.085) (xy 108.585 104.14)
 		)
 		(stroke
 			(width 0.2)
@@ -2428,7 +2428,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "47u"
 			(at 150.5013 22.225 90)
 			(effects
 				(font
@@ -2759,7 +2759,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "220n"
+		(property "Value" "47u"
 			(at 85.725 79.3685 0)
 			(effects
 				(font
@@ -3631,7 +3631,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "47u"
 			(at 118.7513 22.225 90)
 			(effects
 				(font

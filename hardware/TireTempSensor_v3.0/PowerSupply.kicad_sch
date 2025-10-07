@@ -6393,7 +6393,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Mosfet:SOT-223-4-NFET"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
 			(at 105.41 36.83 0)
 			(effects
 				(font
@@ -6402,7 +6402,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/ProductDetail/onsemi-Fairchild/FQT3P20TF?qs=k6rL%2Fc%252BPp3KKqr%252BK9hIArg%3D%3D"
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Diodes-Incorporated/ZVP2120GTA?qs=xZ%2FP%252Ba9zWqYgxv%2FYfJ%252BkQg%3D%3D"
 			(at 107.95 41.91 0)
 			(effects
 				(font

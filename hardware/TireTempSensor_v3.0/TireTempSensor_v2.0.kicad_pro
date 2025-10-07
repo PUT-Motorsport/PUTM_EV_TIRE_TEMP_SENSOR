@@ -200,10 +200,10 @@
       ],
       "track_widths": [
         0.0,
+        0.1,
         0.3,
         0.5,
-        0.75,
-        1.0
+        0.75
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -669,6 +669,10 @@
     [
       "f9126d12-525a-4c2b-82ad-a240338a41b0",
       "LEDs"
+    ],
+    [
+      "623d30bf-019f-4f43-9b1b-a487c4f864f5",
+      "ESD_Protection"
     ]
   ],
   "text_variables": {}
