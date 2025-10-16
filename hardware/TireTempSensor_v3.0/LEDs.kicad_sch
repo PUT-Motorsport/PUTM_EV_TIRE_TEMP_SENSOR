@@ -420,170 +420,112 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
-	(rectangle
-		(start 127.635 88.265)
-		(end 187.96 119.38)
-		(stroke
-			(width 1)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 34ab84c5-9790-4d56-9072-3ea9933a4911)
-	)
-	(text "Potrzebne???\n"
+	(text "dodać leda co morsem pokazuje adres\new 2 ledy :c"
 		(exclude_from_sim no)
-		(at 147.32 125.095 0)
+		(at 150.495 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "6b9ffb7a-785f-48bf-b41a-3824e45c3d37")
+		(uuid "75fac109-7ad9-4e5e-a27b-501cef595f8b")
 	)
 	(wire
 		(pts
-			(xy 160.02 98.425) (xy 160.02 94.615)
+			(xy 115.57 109.855) (xy 115.57 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "204f04fa-951f-44bb-8379-968b711d3e35")
+		(uuid "2dfd70bc-4d08-4299-be5f-31b03d546efa")
 	)
 	(wire
 		(pts
-			(xy 104.14 97.155) (xy 104.14 93.345)
+			(xy 132.715 113.665) (xy 132.715 107.315)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2958d25c-bdd7-4ffe-a2d5-5fba19617807")
+		(uuid "6a796cfa-99db-409b-95c9-c30201ddc7cd")
 	)
 	(wire
 		(pts
-			(xy 144.78 98.425) (xy 144.78 94.615)
+			(xy 104.14 109.855) (xy 104.14 107.315)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9858486b-5df4-4f94-973f-88f487eb47cf")
+		(uuid "71aed393-7ba8-4818-8021-cb2ee8ab6409")
 	)
 	(wire
 		(pts
-			(xy 115.57 96.52) (xy 115.57 92.71)
+			(xy 153.035 109.855) (xy 153.035 106.045)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9cab9792-ff26-4fa0-8404-34ac14b7f57b")
+		(uuid "8d812af7-472f-4f70-8ede-fedb4082c075")
+	)
+	(wire
+		(pts
+			(xy 133.985 113.665) (xy 132.715 113.665)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91dddf21-593f-47a2-a245-583a98f91a99")
+	)
+	(wire
+		(pts
+			(xy 117.475 109.855) (xy 115.57 109.855)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "973c872e-4727-465c-81d7-1e679d373178")
+	)
+	(wire
+		(pts
+			(xy 105.41 109.855) (xy 104.14 109.855)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f574db68-edca-4f64-b587-df5edfc059f0")
+	)
+	(hierarchical_label "LED_ADRESS_INDICATOR_1"
+		(shape input)
+		(at 133.985 113.665 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "089991b4-9370-4bb7-b153-f62f7a318511")
+	)
+	(hierarchical_label "LED_ADRESS_INDICATOR_2"
+		(shape input)
+		(at 153.035 109.855 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1194f5d7-0427-4b89-acf0-cd88b009789a")
 	)
 	(hierarchical_label "LED_ERR"
 		(shape input)
-		(at 115.57 92.71 0)
+		(at 117.475 109.855 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -594,7 +536,7 @@
 	)
 	(hierarchical_label "LED_OK"
 		(shape input)
-		(at 104.14 93.345 0)
+		(at 105.41 109.855 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -603,40 +545,18 @@
 		)
 		(uuid "1f7e060d-1f42-4045-a602-8f01980a4529")
 	)
-	(hierarchical_label "LED_WAR1"
-		(shape input)
-		(at 144.78 94.615 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bf8161c9-16d4-4e3f-900d-83f5cc7842fa")
-	)
-	(hierarchical_label "LED_WAR2"
-		(shape input)
-		(at 160.02 94.615 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fb9769dc-5294-4149-936d-715f0815ccfc")
-	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 176.53 96.52 0)
-		(mirror y)
+		(at 104.14 97.155 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "091b8bce-afd7-418e-8630-40b176d82729")
-		(property "Reference" "#PWR0136"
-			(at 176.53 100.33 0)
+		(fields_autoplaced yes)
+		(uuid "027c7e00-bd38-4873-ace9-268d10dcb113")
+		(property "Reference" "#PWR0140"
+			(at 104.14 100.965 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -645,7 +565,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 176.53 91.44 0)
+			(at 104.14 92.075 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -653,7 +573,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 176.53 96.52 0)
+			(at 104.14 97.155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -662,7 +582,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 96.52 0)
+			(at 104.14 97.155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -671,7 +591,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 176.53 96.52 0)
+			(at 104.14 97.155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -679,146 +599,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "3591c8dd-7742-4094-a50f-bc1c0c467acb")
+			(uuid "3387fca8-fe15-457e-b1a6-91650197ecbf")
 		)
 		(instances
-			(project ""
+			(project "TireTempSensor_v2.0"
 				(path "/6e95e1be-fdd6-40ae-a4f8-5c53e6058d6c/f9126d12-525a-4c2b-82ad-a240338a41b0"
-					(reference "#PWR0136")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 144.78 100.965 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "17e28c58-a9d5-45a7-a65e-a7ed3f9fbf3a")
-		(property "Reference" "R7"
-			(at 147.32 99.6949 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k5"
-			(at 147.32 102.2349 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 144.78 100.965 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 144.78 100.965 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 144.78 100.965 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d649517a-2995-4e8d-b154-108c4a981576")
-		)
-		(pin "2"
-			(uuid "7b05ab17-17b5-4b29-bd82-94b9d49be957")
-		)
-		(instances
-			(project ""
-				(path "/6e95e1be-fdd6-40ae-a4f8-5c53e6058d6c/f9126d12-525a-4c2b-82ad-a240338a41b0"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 160.02 108.585 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "18afc543-878d-4efd-97f5-9a8ba0b70aa4")
-		(property "Reference" "#PWR0133"
-			(at 160.02 114.935 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 160.02 113.665 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 160.02 108.585 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 160.02 108.585 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 160.02 108.585 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4e8ec74a-b071-42b8-a6af-1a144af71440")
-		)
-		(instances
-			(project ""
-				(path "/6e95e1be-fdd6-40ae-a4f8-5c53e6058d6c/f9126d12-525a-4c2b-82ad-a240338a41b0"
-					(reference "#PWR0133")
+					(reference "#PWR0140")
 					(unit 1)
 				)
 			)
@@ -826,16 +612,16 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 160.02 106.045 90)
+		(at 153.035 103.505 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "194b59a7-90a0-4700-a362-19b7e4431368")
+		(uuid "1dbefc2c-c178-491e-a763-432064b7d388")
 		(property "Reference" "D4"
-			(at 162.56 104.7749 90)
+			(at 155.575 102.2349 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -843,8 +629,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "YELLOW"
-			(at 162.56 107.3149 90)
+		(property "Value" "RED"
+			(at 155.575 104.7749 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -853,7 +639,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
-			(at 160.02 106.045 90)
+			(at 153.035 103.505 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -862,7 +648,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 106.045 90)
+			(at 153.035 103.505 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -871,7 +657,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 160.02 106.045 0)
+			(at 153.035 103.505 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -879,13 +665,13 @@
 			)
 		)
 		(pin "1"
-			(uuid "44f3f005-4add-4419-937a-8f1733a67f59")
+			(uuid "ea438152-bda6-45aa-ae6e-b77876f214d5")
 		)
 		(pin "2"
-			(uuid "84fd34b9-fee2-41d6-a462-16c9ad0fa1e4")
+			(uuid "69987457-52ac-4419-9131-164e58b0dbac")
 		)
 		(instances
-			(project ""
+			(project "TireTempSensor_v2.0"
 				(path "/6e95e1be-fdd6-40ae-a4f8-5c53e6058d6c/f9126d12-525a-4c2b-82ad-a240338a41b0"
 					(reference "D4")
 					(unit 1)
@@ -963,100 +749,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 176.53 106.68 0)
+		(lib_id "Device:R_Small_US")
+		(at 132.715 99.695 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2ec747ac-4682-44a4-946c-41a17d493fe7")
-		(property "Reference" "#PWR0134"
-			(at 176.53 113.03 0)
+		(uuid "3352cef1-3768-4a99-b70d-88e47d0f41dc")
+		(property "Reference" "R10"
+			(at 135.255 98.4249 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 176.53 111.76 0)
+		(property "Value" "1k5"
+			(at 135.255 100.9649 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 176.53 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 176.53 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "30878d3d-0344-483a-9fa7-609b5081dc2e")
-		)
-		(instances
-			(project ""
-				(path "/6e95e1be-fdd6-40ae-a4f8-5c53e6058d6c/f9126d12-525a-4c2b-82ad-a240338a41b0"
-					(reference "#PWR0134")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Small")
-		(at 176.53 104.14 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "51b074ac-ef52-4620-8876-c424dbf39982")
-		(property "Reference" "D6"
-			(at 179.07 102.8699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "RED"
-			(at 179.07 105.4099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
-			(at 176.53 104.14 90)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 132.715 99.695 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1065,7 +786,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 104.14 90)
+			(at 132.715 99.695 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1074,7 +795,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 176.53 104.14 0)
+			(at 132.715 99.695 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1082,32 +803,32 @@
 			)
 		)
 		(pin "1"
-			(uuid "4c663731-2c9f-4596-a4ca-1cdbf97ba0f7")
+			(uuid "70faa968-a20f-46a0-8917-27591a844d3b")
 		)
 		(pin "2"
-			(uuid "b816e43c-a2aa-4305-8445-5de5952d2897")
+			(uuid "851651e9-ac20-4ff5-8834-ff3a3414ceca")
 		)
 		(instances
-			(project ""
+			(project "TireTempSensor_v2.0"
 				(path "/6e95e1be-fdd6-40ae-a4f8-5c53e6058d6c/f9126d12-525a-4c2b-82ad-a240338a41b0"
-					(reference "D6")
+					(reference "R10")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 144.78 108.585 0)
+		(lib_id "power:+3V3")
+		(at 153.035 95.885 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7150dd07-d461-44b2-b7d3-1a2b7a862eb5")
-		(property "Reference" "#PWR0132"
-			(at 144.78 114.935 0)
+		(uuid "43ac20c9-cc9f-43ae-af0e-718114625e29")
+		(property "Reference" "#PWR0143"
+			(at 153.035 99.695 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1115,8 +836,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 144.78 113.665 0)
+		(property "Value" "+3V3"
+			(at 153.035 90.805 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1124,7 +845,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 108.585 0)
+			(at 153.035 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1133,7 +854,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 108.585 0)
+			(at 153.035 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1142,7 +863,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 144.78 108.585 0)
+			(at 153.035 95.885 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1150,29 +871,29 @@
 			)
 		)
 		(pin "1"
-			(uuid "45ba1979-4b5b-480d-9214-e437ba4af5dd")
+			(uuid "75eaad49-0ac3-49c6-9778-a4525d073edb")
 		)
 		(instances
-			(project ""
+			(project "TireTempSensor_v2.0"
 				(path "/6e95e1be-fdd6-40ae-a4f8-5c53e6058d6c/f9126d12-525a-4c2b-82ad-a240338a41b0"
-					(reference "#PWR0132")
+					(reference "#PWR0143")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 115.57 106.68 0)
+		(lib_id "power:+3V3")
+		(at 132.715 97.155 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b0c34968-5dae-465d-bcca-dbb8805ecc20")
-		(property "Reference" "#PWR0137"
-			(at 115.57 113.03 0)
+		(uuid "521fb3ef-493b-47df-90dd-1f3c779e07fc")
+		(property "Reference" "#PWR0142"
+			(at 132.715 100.965 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1180,8 +901,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 115.57 111.76 0)
+		(property "Value" "+3V3"
+			(at 132.715 92.075 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1189,7 +910,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 115.57 106.68 0)
+			(at 132.715 97.155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1198,7 +919,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 115.57 106.68 0)
+			(at 132.715 97.155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1207,7 +928,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 115.57 106.68 0)
+			(at 132.715 97.155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1215,81 +936,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "5ded3587-f3fa-4da2-b5ee-52433a3e0317")
+			(uuid "ec799069-f529-4e05-88b0-5b2f43e9a355")
 		)
 		(instances
-			(project ""
+			(project "TireTempSensor_v2.0"
 				(path "/6e95e1be-fdd6-40ae-a4f8-5c53e6058d6c/f9126d12-525a-4c2b-82ad-a240338a41b0"
-					(reference "#PWR0137")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Small")
-		(at 144.78 106.045 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b503baab-4c8a-4949-949f-5ba82aee9dbd")
-		(property "Reference" "D3"
-			(at 147.32 104.7749 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "YELLOW"
-			(at 147.32 107.3149 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
-			(at 144.78 106.045 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 144.78 106.045 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 144.78 106.045 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "63914c26-4537-42d3-9077-f045e688e777")
-		)
-		(pin "2"
-			(uuid "63774e0f-120c-4732-9c3d-607bdac40f02")
-		)
-		(instances
-			(project ""
-				(path "/6e95e1be-fdd6-40ae-a4f8-5c53e6058d6c/f9126d12-525a-4c2b-82ad-a240338a41b0"
-					(reference "D3")
+					(reference "#PWR0142")
 					(unit 1)
 				)
 			)
@@ -1434,100 +1086,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 104.14 107.315 0)
+		(lib_id "Device:D_Small")
+		(at 132.715 104.775 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "cd612336-0bb4-44f1-ab49-71657be0dc32")
-		(property "Reference" "#PWR0135"
-			(at 104.14 113.665 0)
+		(uuid "dc4243bb-9bbe-4a1a-8410-fd97f6637d55")
+		(property "Reference" "D6"
+			(at 135.255 103.5049 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify right)
 			)
 		)
-		(property "Value" "GND"
-			(at 104.14 112.395 0)
+		(property "Value" "GREEN"
+			(at 135.255 106.0449 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 104.14 107.315 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 107.315 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 104.14 107.315 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1dfe1be4-01a0-4818-a36f-018fbae1b0c5")
-		)
-		(instances
-			(project ""
-				(path "/6e95e1be-fdd6-40ae-a4f8-5c53e6058d6c/f9126d12-525a-4c2b-82ad-a240338a41b0"
-					(reference "#PWR0135")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 160.02 100.965 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board no)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d1d07f77-881a-4220-a312-670fc3f108e7")
-		(property "Reference" "R8"
-			(at 162.56 99.6949 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1k5"
-			(at 162.56 102.2349 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 160.02 100.965 0)
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
+			(at 132.715 104.775 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1536,7 +1123,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 100.965 0)
+			(at 132.715 104.775 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1545,7 +1132,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 160.02 100.965 0)
+			(at 132.715 104.775 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1553,15 +1140,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "3bf2b527-8bf9-4b6e-ab24-4ea32bcedb97")
+			(uuid "c1c53b0f-b941-4097-8110-9740c805164c")
 		)
 		(pin "2"
-			(uuid "dcf81e9d-4319-43bb-812e-5ee0edabe35f")
+			(uuid "c8c28faf-1a74-4511-ba0d-181ed60420de")
 		)
 		(instances
-			(project ""
+			(project "TireTempSensor_v2.0"
 				(path "/6e95e1be-fdd6-40ae-a4f8-5c53e6058d6c/f9126d12-525a-4c2b-82ad-a240338a41b0"
-					(reference "R8")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -1638,16 +1225,16 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 176.53 99.06 0)
+		(at 153.035 98.425 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board no)
+		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "df5055af-e22c-457b-9688-10f05036ad48")
-		(property "Reference" "R10"
-			(at 179.07 97.7899 0)
+		(uuid "e5d3254c-0e03-40fa-9535-3977d8dc8c37")
+		(property "Reference" "R7"
+			(at 155.575 97.1549 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1656,7 +1243,7 @@
 			)
 		)
 		(property "Value" "1k5"
-			(at 179.07 100.3299 0)
+			(at 155.575 99.6949 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1665,7 +1252,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 176.53 99.06 0)
+			(at 153.035 98.425 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1674,7 +1261,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 176.53 99.06 0)
+			(at 153.035 98.425 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1683,7 +1270,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 176.53 99.06 0)
+			(at 153.035 98.425 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1691,15 +1278,80 @@
 			)
 		)
 		(pin "1"
-			(uuid "5733aae7-e36e-43fc-a235-5ac8c8dc54a7")
+			(uuid "889e17c2-aa97-4104-aab0-04b0d98b0b08")
 		)
 		(pin "2"
-			(uuid "07a879b7-3b01-4481-be53-60beac96342d")
+			(uuid "12784b58-c793-41b7-9ef5-c20492a1d525")
 		)
 		(instances
-			(project ""
+			(project "TireTempSensor_v2.0"
 				(path "/6e95e1be-fdd6-40ae-a4f8-5c53e6058d6c/f9126d12-525a-4c2b-82ad-a240338a41b0"
-					(reference "R10")
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 115.57 96.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "edb07a32-7c87-41e3-a01b-12ccbaa53b57")
+		(property "Reference" "#PWR0141"
+			(at 115.57 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 115.57 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "20b8472f-0a7d-4364-adbe-e7bed0544c6d")
+		)
+		(instances
+			(project "TireTempSensor_v2.0"
+				(path "/6e95e1be-fdd6-40ae-a4f8-5c53e6058d6c/f9126d12-525a-4c2b-82ad-a240338a41b0"
+					(reference "#PWR0141")
 					(unit 1)
 				)
 			)

@@ -59,9 +59,9 @@
           "width": 0.0
         },
         {
-          "gap": 0.0,
+          "gap": 0.4,
           "via_gap": 0.0,
-          "width": 0.3
+          "width": 0.1
         }
       ],
       "drc_exclusions": [],
@@ -139,16 +139,16 @@
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
-        "min_microvia_diameter": 0.2,
-        "min_microvia_drill": 0.1,
+        "min_microvia_diameter": 0.25,
+        "min_microvia_drill": 0.15,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.2,
-        "min_via_annular_width": 0.15,
-        "min_via_diameter": 0.4,
+        "min_via_annular_width": 0.2,
+        "min_via_diameter": 0.1,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
@@ -201,6 +201,7 @@
       "track_widths": [
         0.0,
         0.1,
+        0.2,
         0.3,
         0.5,
         0.75
@@ -235,6 +236,14 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.25,
+          "drill": 0.15
+        },
+        {
+          "diameter": 0.75,
+          "drill": 0.25
         }
       ],
       "zones_allow_external_fillets": false,
@@ -669,10 +678,6 @@
     [
       "f9126d12-525a-4c2b-82ad-a240338a41b0",
       "LEDs"
-    ],
-    [
-      "623d30bf-019f-4f43-9b1b-a487c4f864f5",
-      "ESD_Protection"
     ]
   ],
   "text_variables": {}

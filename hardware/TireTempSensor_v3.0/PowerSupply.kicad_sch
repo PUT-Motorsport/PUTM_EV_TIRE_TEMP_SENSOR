@@ -237,145 +237,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -649,157 +510,6 @@
 					(at 3.81 0 180)
 					(length 2.54)
 					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:FerriteBead_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "FB"
-				(at 1.905 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "FerriteBead_Small"
-				(at 1.905 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Ferrite bead, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "L ferrite bead inductor filter"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "FerriteBead_Small_0_1"
-				(polyline
-					(pts
-						(xy -1.8288 0.2794) (xy -1.1176 1.4986) (xy 1.8288 -0.2032) (xy 1.1176 -1.4224) (xy -1.8288 0.2794)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.889) (xy 0 1.2954)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -0.7874)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "FerriteBead_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 1.27)
-					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2700,12 +2410,6 @@
 		(uuid "07060edb-7674-4f63-9353-e6400f812ea5")
 	)
 	(junction
-		(at 71.755 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "07f6268a-0e76-4900-8239-981b9e0aa941")
-	)
-	(junction
 		(at 107.315 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2734,18 +2438,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "20186902-adff-412d-a1ee-d217ee3a3cc6")
-	)
-	(junction
-		(at 97.155 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "20d4db3a-f43d-4193-8008-a0af2d1c3c93")
-	)
-	(junction
-		(at 71.755 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2422d970-abe7-4f05-9f21-bb5c002616b2")
 	)
 	(junction
 		(at 63.5 127.635)
@@ -2802,6 +2494,12 @@
 		(uuid "68824bc0-57d9-49b8-81cc-faee3ca42ea5")
 	)
 	(junction
+		(at 151.13 154.305)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7383e959-99ee-43dd-a59e-dc08475e5c30")
+	)
+	(junction
 		(at 132.715 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2812,12 +2510,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92e0d5df-98d4-4612-85f0-6d976bb55cc9")
-	)
-	(junction
-		(at 151.13 154.305)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9ceea9b8-f438-4397-b094-78f1566ae0f5")
 	)
 	(junction
 		(at 123.825 81.28)
@@ -2844,22 +2536,10 @@
 		(uuid "bfc53e40-0074-473c-a45e-835a482b0c29")
 	)
 	(junction
-		(at 151.13 167.005)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c8c2e55c-6293-4632-9865-acce3c2a41b6")
-	)
-	(junction
 		(at 60.96 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce85a462-36d5-47bb-84f3-a735f012f1bf")
-	)
-	(junction
-		(at 97.155 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d206ea66-45ee-4fe3-8d49-ca1e6f0bca50")
 	)
 	(junction
 		(at 116.84 156.845)
@@ -3037,23 +2717,13 @@
 	)
 	(wire
 		(pts
-			(xy 61.595 92.71) (xy 71.755 92.71)
+			(xy 61.595 92.71) (xy 84.455 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "20adede0-31f3-49da-a7e0-7c1d1534b261")
-	)
-	(wire
-		(pts
-			(xy 97.155 92.71) (xy 107.315 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "213917f2-bf8c-4496-9ce9-09b0e112099a")
 	)
 	(wire
 		(pts
@@ -3087,16 +2757,6 @@
 	)
 	(wire
 		(pts
-			(xy 61.595 81.28) (xy 71.755 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22534f1f-4ce1-4801-9330-9f4b2429a895")
-	)
-	(wire
-		(pts
 			(xy 60.96 139.065) (xy 74.93 139.065)
 		)
 		(stroke
@@ -3104,16 +2764,6 @@
 			(type default)
 		)
 		(uuid "26ffde6d-14d1-410a-b9bd-7d40d663e064")
-	)
-	(wire
-		(pts
-			(xy 97.155 90.17) (xy 97.155 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2766ea38-9021-4888-9208-4c1b1318fc83")
 	)
 	(wire
 		(pts
@@ -3257,16 +2907,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.755 92.71) (xy 84.455 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f377ad6-ff95-4a79-bde2-ad7448592ba5")
-	)
-	(wire
-		(pts
 			(xy 115.57 124.46) (xy 115.57 127.635)
 		)
 		(stroke
@@ -3287,17 +2927,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.155 81.28) (xy 97.155 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57ba6969-0df0-4e38-93fa-c2b0ad9ed76b")
-	)
-	(wire
-		(pts
-			(xy 71.755 81.28) (xy 76.835 81.28)
+			(xy 61.595 81.28) (xy 76.835 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3407,6 +3037,16 @@
 	)
 	(wire
 		(pts
+			(xy 60.96 135.255) (xy 60.96 139.065)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f9cb17b-d7d6-4c5e-ad7d-c4072aac47c3")
+	)
+	(wire
+		(pts
 			(xy 140.97 164.465) (xy 140.97 167.005)
 		)
 		(stroke
@@ -3447,16 +3087,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 127.635) (xy 60.96 127.635)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8624cdc1-ea80-4198-aab2-397def3eb658")
-	)
-	(wire
-		(pts
 			(xy 74.93 139.065) (xy 74.93 141.605)
 		)
 		(stroke
@@ -3464,16 +3094,6 @@
 			(type default)
 		)
 		(uuid "88f2fbca-a775-4ae4-86b1-5e1b6e0ae6c2")
-	)
-	(wire
-		(pts
-			(xy 60.96 137.795) (xy 60.96 139.065)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b3d1fee-c205-41e5-9b3b-6efc3dc41101")
 	)
 	(wire
 		(pts
@@ -3487,17 +3107,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.155 81.28) (xy 107.315 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e2a54af-cd5e-4470-9ae1-9139a8fad7ac")
-	)
-	(wire
-		(pts
-			(xy 92.075 81.28) (xy 97.155 81.28)
+			(xy 92.075 81.28) (xy 107.315 81.28)
 		)
 		(stroke
 			(width 0)
@@ -3517,16 +3127,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 154.305) (xy 151.13 159.385)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90f3b88f-c049-4902-914d-d90a8ecd0a60")
-	)
-	(wire
-		(pts
 			(xy 105.41 151.765) (xy 109.22 151.765)
 		)
 		(stroke
@@ -3537,7 +3137,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 137.795) (xy 88.9 139.065)
+			(xy 88.9 135.255) (xy 88.9 139.065)
 		)
 		(stroke
 			(width 0)
@@ -3577,16 +3177,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 154.305) (xy 151.13 150.495)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9cfdafd1-340d-4260-8917-2e4a76059311")
-	)
-	(wire
-		(pts
 			(xy 115.57 118.11) (xy 115.57 118.745)
 		)
 		(stroke
@@ -3597,7 +3187,7 @@
 	)
 	(wire
 		(pts
-			(xy 84.455 92.71) (xy 97.155 92.71)
+			(xy 84.455 92.71) (xy 107.315 92.71)
 		)
 		(stroke
 			(width 0)
@@ -3607,7 +3197,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 127.635) (xy 46.99 127.635)
+			(xy 35.56 127.635) (xy 60.96 127.635)
 		)
 		(stroke
 			(width 0)
@@ -3647,13 +3237,13 @@
 	)
 	(wire
 		(pts
-			(xy 71.755 81.28) (xy 71.755 85.09)
+			(xy 151.13 154.305) (xy 151.13 159.385)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ad74dd53-8f6c-40e9-8481-5f9fb9970b0f")
+		(uuid "acecaa83-716c-4815-9555-815b200118cc")
 	)
 	(wire
 		(pts
@@ -3724,6 +3314,16 @@
 			(type default)
 		)
 		(uuid "c07d0a8f-34c1-4719-9144-859e50167098")
+	)
+	(wire
+		(pts
+			(xy 151.13 150.495) (xy 151.13 154.305)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c437cb9e-4d13-4c3f-85bb-696702b9e495")
 	)
 	(wire
 		(pts
@@ -3944,16 +3544,6 @@
 			(type default)
 		)
 		(uuid "f690d126-6feb-4171-9810-a972be55ed53")
-	)
-	(wire
-		(pts
-			(xy 71.755 90.17) (xy 71.755 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f922ab9e-5139-4a74-971d-65abcbc2adc1")
 	)
 	(wire
 		(pts
@@ -4495,6 +4085,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 61.595 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "106c44c7-68a0-4496-89eb-56c9674b9b46")
+		(property "Reference" "C46"
+			(at 64.135 86.3662 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 64.135 88.9062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 61.595 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
+			(at 61.595 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 61.595 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 61.595 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/TDK/C2012X5R1V226M125AC?qs=6JAMGB%252BEdkyUk0d2Mu2IrQ%3D%3D"
+			(at 61.595 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "58477cb4-9f53-4b00-833f-f4f0c9515966")
+		)
+		(pin "1"
+			(uuid "e30e1c8a-f17e-4bf5-948a-50dd2e6c442c")
+		)
+		(instances
+			(project "TireTempSensor_v2.0"
+				(path "/6e95e1be-fdd6-40ae-a4f8-5c53e6058d6c/0f13de77-3258-490a-9a0b-6a199964636d"
+					(reference "C46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Fuse_Small")
 		(at 151.13 147.955 270)
 		(unit 1)
@@ -4512,7 +4189,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "F0603G0R05FNTR"
+		(property "Value" "SF-0603FP050M-2"
 			(at 149.225 149.86 90)
 			(effects
 				(font
@@ -4531,7 +4208,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/ProductDetail/KYOCERA-AVX/F0603G0R05FNTR?qs=JtEK8acvKOPEA8BapUZ1nQ%3D%3D"
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Bourns/SF-0603FP050M-2?qs=fAHHVMwC%252BbjmUEdZYoiM2w%3D%3D"
 			(at 151.13 147.955 0)
 			(effects
 				(font
@@ -4540,7 +4217,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "50mA 0603 Fuse"
+		(property "Description" "500mA 0603 Fuse"
 			(at 161.29 147.955 90)
 			(effects
 				(font
@@ -4558,125 +4235,6 @@
 			(project "TireTempSensor_v2.0"
 				(path "/6e95e1be-fdd6-40ae-a4f8-5c53e6058d6c/0f13de77-3258-490a-9a0b-6a199964636d"
 					(reference "F5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 71.755 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1b0e67bb-2433-429b-93ac-8a20f576baba")
-		(property "Reference" "C27"
-			(at 74.295 86.3662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 74.295 88.9062 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 71.755 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/2/281/1/GRM033R6YA104ME14_01A-1982036.pdf"
-			(at 71.755 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 71.755 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Murata-Electronics/GRM033R6YA104ME14D?qs=P%2FC4Eoq9CDwjSVlAMBrT%252Bw%3D%3D"
-			(at 71.755 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" ""
-			(at 71.755 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "License" ""
-			(at 71.755 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 71.755 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 71.755 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 71.755 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8cc2abf3-c6a1-4b2e-a0d5-79f707c61018")
-		)
-		(pin "2"
-			(uuid "5afbd64f-22b5-4b03-a476-5ec3e9480f21")
-		)
-		(instances
-			(project "TireTempSensor_v2.0"
-				(path "/6e95e1be-fdd6-40ae-a4f8-5c53e6058d6c/0f13de77-3258-490a-9a0b-6a199964636d"
-					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -4742,74 +4300,6 @@
 			(project ""
 				(path "/6e95e1be-fdd6-40ae-a4f8-5c53e6058d6c/0f13de77-3258-490a-9a0b-6a199964636d"
 					(reference "#PWR0115")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 88.9 133.985 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1c6aef60-eee3-40e9-9083-01d92cc3cc6d")
-		(property "Reference" "C15"
-			(at 93.98 132.715 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 92.71 135.255 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 89.8652 137.795 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 88.9 133.985 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 88.9 133.985 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9d4bb136-9ee3-400e-b7f6-86007933b406")
-		)
-		(pin "2"
-			(uuid "602644c6-19bc-482a-817f-eedf22a4c8f7")
-		)
-		(instances
-			(project ""
-				(path "/6e95e1be-fdd6-40ae-a4f8-5c53e6058d6c/0f13de77-3258-490a-9a0b-6a199964636d"
-					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -5172,75 +4662,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Fuse_Small")
-		(at 78.74 39.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3af95f65-a1ab-43d8-b201-74ec98c763d7")
-		(property "Reference" "F2"
-			(at 66.04 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "F0603G0R05FNTR"
-			(at 86.36 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 78.74 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.pl/ProductDetail/KYOCERA-AVX/F0603G0R05FNTR?qs=JtEK8acvKOPEA8BapUZ1nQ%3D%3D"
-			(at 78.74 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "50mA 0603 Fuse"
-			(at 78.74 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2d1823c9-e7bd-4575-a3e8-51bba5f63b4c")
-		)
-		(pin "1"
-			(uuid "edadb880-7bc1-4de7-af37-a6c6b7bef9a9")
-		)
-		(instances
-			(project ""
-				(path "/6e95e1be-fdd6-40ae-a4f8-5c53e6058d6c/0f13de77-3258-490a-9a0b-6a199964636d"
-					(reference "F2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 241.3 57.15 0)
 		(unit 1)
@@ -5591,93 +5012,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 61.595 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "523969dc-2f69-4a68-ab7d-652ee796743c")
-		(property "Reference" "C44"
-			(at 64.135 86.3662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
-			(at 64.135 88.9062 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 61.595 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/2/281/1/GRM188R6YA106MA73_01A-1985794.pdf"
-			(at 61.595 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 61.595 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Murata-Electronics/GRM188R6YA106MA73J?qs=5aG0NVq1C4xLSwNPdfnaYg%3D%3D"
-			(at 61.595 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 61.595 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9a2465b4-f83e-41ce-99b2-1f45993c550c")
-		)
-		(pin "2"
-			(uuid "750c70c0-9d54-4561-82c6-b62f84e225bd")
-		)
-		(instances
-			(project "TireTempSensor_v2.0"
-				(path "/6e95e1be-fdd6-40ae-a4f8-5c53e6058d6c/0f13de77-3258-490a-9a0b-6a199964636d"
-					(reference "C44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 84.455 93.98 0)
 		(unit 1)
@@ -5737,6 +5071,75 @@
 			(project "TireTempSensor_v2.0"
 				(path "/6e95e1be-fdd6-40ae-a4f8-5c53e6058d6c/0f13de77-3258-490a-9a0b-6a199964636d"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Fuse_Small")
+		(at 78.74 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5f3d20e6-7961-4993-9c9f-407e95f11e89")
+		(property "Reference" "F6"
+			(at 78.105 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SF-0603FP050M-2"
+			(at 89.535 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 78.74 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Bourns/SF-0603FP050M-2?qs=fAHHVMwC%252BbjmUEdZYoiM2w%3D%3D"
+			(at 78.74 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "500mA 0603 Fuse"
+			(at 78.74 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fd715a4c-dff8-48d6-9aad-6e0199fbb9bc")
+		)
+		(pin "1"
+			(uuid "e4eb3acb-6bbb-4597-9d0f-0746ce854401")
+		)
+		(instances
+			(project "TireTempSensor_v2.0"
+				(path "/6e95e1be-fdd6-40ae-a4f8-5c53e6058d6c/0f13de77-3258-490a-9a0b-6a199964636d"
+					(reference "F6")
 					(unit 1)
 				)
 			)
@@ -5919,125 +5322,6 @@
 			(project "TireTempSensor_v2.0"
 				(path "/6e95e1be-fdd6-40ae-a4f8-5c53e6058d6c/0f13de77-3258-490a-9a0b-6a199964636d"
 					(reference "IC4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 97.155 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "636d0243-9f6b-41b1-b9e9-3382abade2fb")
-		(property "Reference" "C29"
-			(at 99.695 86.3662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 99.695 88.9062 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 97.155 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.pl/datasheet/2/281/1/GRM033R6YA104ME14_01A-1982036.pdf"
-			(at 97.155 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 97.155 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/Murata-Electronics/GRM033R6YA104ME14D?qs=P%2FC4Eoq9CDwjSVlAMBrT%252Bw%3D%3D"
-			(at 97.155 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" ""
-			(at 97.155 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "License" ""
-			(at 97.155 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 97.155 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 97.155 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 97.155 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "12adf524-7764-4bff-9f6d-3cfa7572515b")
-		)
-		(pin "2"
-			(uuid "dc22fa3e-aa3a-44cf-b87c-5021e7f6542f")
-		)
-		(instances
-			(project "TireTempSensor_v2.0"
-				(path "/6e95e1be-fdd6-40ae-a4f8-5c53e6058d6c/0f13de77-3258-490a-9a0b-6a199964636d"
-					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -6309,74 +5593,6 @@
 			(project "TireTempSensor_v2.0"
 				(path "/6e95e1be-fdd6-40ae-a4f8-5c53e6058d6c/0f13de77-3258-490a-9a0b-6a199964636d"
 					(reference "R22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 60.96 133.985 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7df09774-7461-481f-8fd5-324f6c74a849")
-		(property "Reference" "C14"
-			(at 53.34 132.715 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 52.07 135.255 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 61.9252 137.795 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 60.96 133.985 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 60.96 133.985 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0d1ecd42-741f-491f-bfd5-6ea8095f3034")
-		)
-		(pin "2"
-			(uuid "29d83a36-a221-4d10-93e0-74aa3f4e1161")
-		)
-		(instances
-			(project ""
-				(path "/6e95e1be-fdd6-40ae-a4f8-5c53e6058d6c/0f13de77-3258-490a-9a0b-6a199964636d"
-					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -6660,7 +5876,7 @@
 				)
 			)
 		)
-		(property "Value" "LM1117-3.3"
+		(property "Value" "NCP715SQ33T2G"
 			(at 84.455 77.4446 0)
 			(effects
 				(font
@@ -6668,7 +5884,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
 			(at 84.455 81.28 0)
 			(effects
 				(font
@@ -6677,7 +5893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1117.pdf"
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/onsemi/NCP715SQ33T2G?qs=dbuNSGnowt2ffOIPXxfL9g%3D%3D"
 			(at 84.455 81.28 0)
 			(effects
 				(font
@@ -6832,73 +6048,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:FerriteBead_Small")
-		(at 49.53 127.635 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "94aabedb-0e55-4784-b737-a9cbac65a2fa")
-		(property "Reference" "FB2"
-			(at 49.4919 121.285 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "60R@100MHz"
-			(at 49.4919 123.825 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
-			(at 49.53 129.413 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 127.635 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 49.53 127.635 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dbd9b0c9-2314-420e-a57a-87162f05dbe0")
-		)
-		(pin "2"
-			(uuid "d8e51cfa-5b2a-4e44-b14b-d5bce37c993b")
-		)
-		(instances
-			(project ""
-				(path "/6e95e1be-fdd6-40ae-a4f8-5c53e6058d6c/0f13de77-3258-490a-9a0b-6a199964636d"
-					(reference "FB2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 116.84 169.545 0)
 		(unit 1)
@@ -6958,6 +6107,93 @@
 			(project "TireTempSensor_v2.0"
 				(path "/6e95e1be-fdd6-40ae-a4f8-5c53e6058d6c/0f13de77-3258-490a-9a0b-6a199964636d"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 60.96 132.715 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9682c009-ecf6-4b03-890a-e1cd672a941f")
+		(property "Reference" "C47"
+			(at 63.5 131.4512 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 63.5 133.9912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 60.96 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
+			(at 60.96 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 60.96 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 60.96 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/TDK/C2012X5R1V226M125AC?qs=6JAMGB%252BEdkyUk0d2Mu2IrQ%3D%3D"
+			(at 60.96 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b8a15b4b-b71e-457a-be43-487e793eceb7")
+		)
+		(pin "1"
+			(uuid "33b2a65f-42e4-465b-a628-6684d9eb9a8f")
+		)
+		(instances
+			(project "TireTempSensor_v2.0"
+				(path "/6e95e1be-fdd6-40ae-a4f8-5c53e6058d6c/0f13de77-3258-490a-9a0b-6a199964636d"
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -7386,113 +6622,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 151.13 167.005 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bb1afa7a-c832-4fe9-8522-a65497dd833d")
-		(property "Reference" "T13"
-			(at 152.4 165.7349 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TP_+5V"
-			(at 152.4 168.2749 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 156.21 167.005 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 156.21 167.005 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 151.13 167.005 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" ""
-			(at 151.13 167.005 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "License" ""
-			(at 151.13 167.005 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 151.13 167.005 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 151.13 167.005 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 151.13 167.005 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1868e742-bfe8-4fa1-bc07-ddf85b9bf144")
-		)
-		(instances
-			(project "TireTempSensor_v2.0"
-				(path "/6e95e1be-fdd6-40ae-a4f8-5c53e6058d6c/0f13de77-3258-490a-9a0b-6a199964636d"
-					(reference "T13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Regulator_Linear:AP2112K-3.3")
 		(at 74.93 130.175 0)
 		(unit 1)
@@ -7563,113 +6692,6 @@
 			(project ""
 				(path "/6e95e1be-fdd6-40ae-a4f8-5c53e6058d6c/0f13de77-3258-490a-9a0b-6a199964636d"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_Small")
-		(at 151.13 154.305 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c2cebacd-c1a4-419f-b27e-9c7da44b07a4")
-		(property "Reference" "T12"
-			(at 152.4 153.0349 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TP_+5V"
-			(at 152.4 155.5749 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 156.21 154.305 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 156.21 154.305 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 151.13 154.305 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Author" ""
-			(at 151.13 154.305 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "License" ""
-			(at 151.13 154.305 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 151.13 154.305 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 151.13 154.305 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 151.13 154.305 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "151af155-4046-4fe7-b77e-6d27785383eb")
-		)
-		(instances
-			(project "TireTempSensor_v2.0"
-				(path "/6e95e1be-fdd6-40ae-a4f8-5c53e6058d6c/0f13de77-3258-490a-9a0b-6a199964636d"
-					(reference "T12")
 					(unit 1)
 				)
 			)
@@ -8223,6 +7245,93 @@
 			(project "TireTempSensor_v2.0"
 				(path "/6e95e1be-fdd6-40ae-a4f8-5c53e6058d6c/0f13de77-3258-490a-9a0b-6a199964636d"
 					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 88.9 132.715 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e23ba05a-dc0f-4952-9489-ef2d7657362f")
+		(property "Reference" "C48"
+			(at 91.44 131.4512 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 91.44 133.9912 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 88.9 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/capacitor/ceramic/mlcc/catalog/mlcc_commercial_general_en.pdf"
+			(at 88.9 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 88.9 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 88.9 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.pl/ProductDetail/TDK/C2012X5R1V226M125AC?qs=6JAMGB%252BEdkyUk0d2Mu2IrQ%3D%3D"
+			(at 88.9 132.715 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d119c987-c7d5-4ea7-bc42-2eac4c7901d4")
+		)
+		(pin "1"
+			(uuid "bdc5dc27-2059-4cd2-ba53-c29ef34e839a")
+		)
+		(instances
+			(project "TireTempSensor_v2.0"
+				(path "/6e95e1be-fdd6-40ae-a4f8-5c53e6058d6c/0f13de77-3258-490a-9a0b-6a199964636d"
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -9052,7 +8161,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_TDK_VLS6045EX_VLS6045AF"
+		(property "Footprint" "Inductor_SMD:L_Vishay_IFSC-1515AH_4x4x1.8mm"
 			(at 134.62 163.195 0)
 			(effects
 				(font
@@ -9061,7 +8170,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_commercial_power_vls6045ex_en.pdf"
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/ABRACON/ASPI-0418FS-680M-T3?qs=PzGy0jfpSMs4xFQ3SodyHw%3D%3D"
 			(at 125.73 169.545 0)
 			(effects
 				(font

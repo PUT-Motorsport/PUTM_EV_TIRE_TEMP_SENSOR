@@ -5,4 +5,5 @@
   (lib (name "2v6")(type "KiCad")(uri "${KIPRJMOD}/power.kicad_sym")(options "")(descr ""))
   (lib (name "stm32")(type "Legacy")(uri "${KIPRJMOD}/PUTM_Kicad_Library/SYMBOLS/STM32L4P5RET6.lib")(options "")(descr ""))
   (lib (name "ISO1042QDWRQ1")(type "KiCad")(uri "${KIPRJMOD}/include/symbol/ISO1042QDWRQ1.kicad_sym")(options "")(descr ""))
+  (lib (name "PUSB3AB6Z")(type "KiCad")(uri "${KIPRJMOD}/include/symbol/PUSB3AB6Z.kicad_sym")(options "")(descr ""))
 )
