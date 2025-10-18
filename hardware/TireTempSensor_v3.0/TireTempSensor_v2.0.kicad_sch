@@ -3495,23 +3495,13 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 137.795) (xy 106.045 137.795)
+			(xy 96.52 137.795) (xy 106.68 137.795)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "11fe3bed-120d-4dce-907f-19d7a55e7215")
-	)
-	(wire
-		(pts
-			(xy 96.52 107.315) (xy 102.87 107.315)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12729fe9-2618-402e-a33a-0d8d069e9b0f")
 	)
 	(wire
 		(pts
@@ -3712,6 +3702,16 @@
 			(type dash)
 		)
 		(uuid "4804b128-80d1-4680-a716-f14be3fb68bf")
+	)
+	(wire
+		(pts
+			(xy 96.52 122.555) (xy 106.045 122.555)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48116da1-9159-4f4c-9d6d-45e1fa395aa5")
 	)
 	(wire
 		(pts
@@ -4043,6 +4043,16 @@
 		)
 		(uuid "838801b5-8bb6-4b79-8b5a-542f1a866c64")
 	)
+	(wire
+		(pts
+			(xy 96.52 135.255) (xy 106.68 135.255)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "858117a7-6a17-4517-82b7-01d3e75d9aa9")
+	)
 	(polyline
 		(pts
 			(xy 215.9 87.63) (xy 215.9 59.69)
@@ -4175,7 +4185,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 140.335) (xy 106.045 140.335)
+			(xy 96.52 140.335) (xy 106.68 140.335)
 		)
 		(stroke
 			(width 0)
@@ -4292,16 +4302,6 @@
 			(type default)
 		)
 		(uuid "b2652c8d-5dfa-4116-8d8a-c86ac78bfa87")
-	)
-	(wire
-		(pts
-			(xy 96.52 109.855) (xy 102.87 109.855)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b4436481-1b7f-423f-af6b-f937040d4d15")
 	)
 	(polyline
 		(pts
@@ -4784,7 +4784,7 @@
 		(uuid "2e1fdbc5-fc2d-423b-b781-a39d63eedb58")
 	)
 	(label "SWCLK"
-		(at 106.045 140.335 180)
+		(at 106.68 140.335 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5094,7 +5094,7 @@
 		(uuid "caaeef8c-aeb8-474a-baf6-5938ccb71311")
 	)
 	(label "SDA"
-		(at 102.87 109.855 180)
+		(at 106.68 135.255 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5104,7 +5104,7 @@
 		(uuid "cc5c2e8b-eafd-4e62-a317-f42d7e2e1091")
 	)
 	(label "SCL"
-		(at 102.87 107.315 180)
+		(at 106.045 122.555 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5124,7 +5124,7 @@
 		(uuid "cfc7abf9-4cef-4962-92ec-67468f2a7b1e")
 	)
 	(label "SWDIO"
-		(at 106.045 137.795 180)
+		(at 106.68 137.795 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5731,10 +5731,11 @@
 		)
 		(pin "14"
 			(uuid "fbae2b5b-5108-4a6e-98ff-5ab6e38b1783")
-			(alternate "COMP2_OUT")
+			(alternate "I2C2_SCL")
 		)
 		(pin "23"
 			(uuid "069fa1b6-4f7a-4a3b-9fff-4ee82de762cc")
+			(alternate "I2C2_SDA")
 		)
 		(pin "2"
 			(uuid "b8e9591e-91d0-4991-ab1c-80bb5be2e56e")
