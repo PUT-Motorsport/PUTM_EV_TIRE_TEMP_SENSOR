@@ -2671,9 +2671,9 @@
 		(descr "SOT-23, Handsoldering")
 		(tags "SOT-23")
 		(property "Reference" "D9"
-			(at 2.25 -0.11 180)
+			(at 2.4 1.1 180)
 			(layer "F.SilkS")
-			(uuid "fa05e4c0-0105-4214-ba43-cbfd412ecd04")
+			(uuid "f047410b-3cb8-4167-8fe3-0641515e0ff2")
 			(effects
 				(font
 					(size 1 1)
@@ -2684,7 +2684,7 @@
 		(property "Value" "D_TVS_Dual_AAC"
 			(at 0 2.5 180)
 			(layer "F.Fab")
-			(uuid "edbe7638-c7b3-48b2-8ada-18b61eb0eb41")
+			(uuid "ba7b7d3e-c87d-4dd6-a10e-a2cf12e19766")
 			(effects
 				(font
 					(size 1 1)
@@ -2696,7 +2696,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0cb0de95-e5ba-4e2b-a523-f9a436c86d4e")
+			(uuid "5afa5328-22e6-49ac-90af-50f24a7477e7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2708,7 +2708,7 @@
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3e7eced4-5563-4468-b7fa-52db7cf9c5ce")
+			(uuid "1b2e7546-6193-41f0-b06e-4d5d5260e346")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18023,7 +18023,7 @@
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "T10"
-			(at 2.4 0.7 180)
+			(at 2.4 0.2 180)
 			(layer "B.SilkS")
 			(uuid "935309b2-1566-48e0-a430-c9da3db6d3c5")
 			(effects
@@ -18259,7 +18259,7 @@
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "T14"
-			(at 0 1.448 180)
+			(at -2.4 -0.2 180)
 			(layer "B.SilkS")
 			(uuid "0cb3ad63-ce29-46f0-a9e9-8211bd7d0593")
 			(effects
@@ -18491,7 +18491,7 @@
 	(footprint "mylogo:logo"
 		(layer "B.Cu")
 		(uuid "b90d0b98-8817-40e7-b7e6-65aebb9aeaa6")
-		(at 120.6 100 180)
+		(at 118.5 95.5 180)
 		(property "Reference" "G***"
 			(at -0.5 4.75 0)
 			(layer "User.1")
@@ -19459,7 +19459,7 @@
 		(descr "SMD rectangular pad as test Point, square 1.0mm side length")
 		(tags "test point SMD pad rectangle square")
 		(property "Reference" "T15"
-			(at 0 1.448 180)
+			(at -2.2 -0.1 180)
 			(layer "B.SilkS")
 			(uuid "d462a6d7-30fc-40d3-b6ca-07d346b2e53f")
 			(effects
@@ -19739,8 +19739,8 @@
 		(uuid "10e1dd19-a761-4d02-9b5a-fc0ef0637e5e")
 	)
 	(gr_line
-		(start 120.5 104.5)
-		(end 121.5 105.5)
+		(start 117.5 100)
+		(end 118.5 101)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -19749,8 +19749,8 @@
 		(uuid "7d405279-eb50-4a4b-8bf9-9d47e7106a23")
 	)
 	(gr_line
-		(start 120.5 105.5)
-		(end 121.5 104.5)
+		(start 117.5 101)
+		(end 118.5 100)
 		(stroke
 			(width 0.15)
 			(type default)
@@ -19897,7 +19897,7 @@
 		)
 	)
 	(gr_text "Wiktor Krakowski :3"
-		(at 127.5 107 0)
+		(at 125.5 102.5 0)
 		(layer "B.SilkS")
 		(uuid "d409cf5f-c381-4688-8c3f-2bd6389fb93e")
 		(effects
