@@ -8,6 +8,113 @@
 		(title "Tire Temp Sensor v2.0")
 	)
 	(lib_symbols
+		(symbol "Connector:TestPoint_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint_Small"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_Small_0_1"
+				(circle
+					(center 0 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_Small_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 0)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
 				(offset 1.016)
@@ -3173,8 +3280,20 @@
 		)
 	)
 	(rectangle
-		(start 27.94 74.93)
-		(end 125.73 174.625)
+		(start 195.58 125.095)
+		(end 281.94 161.925)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 85fc2511-f24a-4ba1-81b0-9df5fd1e4fd5)
+	)
+	(rectangle
+		(start 29.21 74.93)
+		(end 127 174.625)
 		(stroke
 			(width 0)
 			(type dash)
@@ -3209,6 +3328,19 @@
 			(justify left bottom)
 		)
 		(uuid "2311209f-a914-4b55-88c9-6ff034c9656d")
+	)
+	(text "ESD protection\n"
+		(exclude_from_sim no)
+		(at 171.45 127 0)
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "7030aa90-6d28-4f3e-ba14-6b7dd99be623")
 	)
 	(text "OSC\n"
 		(exclude_from_sim no)
@@ -3301,16 +3433,6 @@
 		)
 		(uuid "f751fb4e-7312-4270-b65b-d5223a540372")
 	)
-	(text "uart na programator type shit\n"
-		(exclude_from_sim no)
-		(at 261.62 91.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ffb6dc2e-9f7b-454f-969d-119ee477158b")
-	)
 	(junction
 		(at 200.66 114.3)
 		(diameter 0)
@@ -3346,6 +3468,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76f15a5e-531c-4338-be94-28d5de896928")
+	)
+	(junction
+		(at 203.835 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "778616ec-da9d-45a2-842b-6599cbbdf1ea")
 	)
 	(junction
 		(at 231.14 111.125)
@@ -3406,7 +3534,7 @@
 		(uuid "70a14a6a-e648-45dd-98e9-16098c6da436")
 	)
 	(no_connect
-		(at 192.405 151.13)
+		(at 238.76 148.59)
 		(uuid "8f7a7f3f-4de3-4a3d-abe0-4f0b06755936")
 	)
 	(polyline
@@ -3711,7 +3839,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 133.35) (xy 188.595 133.35)
+			(xy 223.52 145.415) (xy 230.505 145.415)
 		)
 		(stroke
 			(width 0)
@@ -3721,7 +3849,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 137.795) (xy 175.895 137.795)
+			(xy 214.63 149.86) (xy 217.805 149.86)
 		)
 		(stroke
 			(width 0)
@@ -4041,7 +4169,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 106.68) (xy 205.74 106.68)
+			(xy 200.66 106.68) (xy 203.835 106.68)
 		)
 		(stroke
 			(width 0)
@@ -4221,7 +4349,7 @@
 	)
 	(polyline
 		(pts
-			(xy 147.955 121.92) (xy 215.9 121.92)
+			(xy 154.94 121.92) (xy 215.9 121.92)
 		)
 		(stroke
 			(width 0)
@@ -4231,7 +4359,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 137.795) (xy 172.72 137.16)
+			(xy 214.63 149.86) (xy 214.63 149.225)
 		)
 		(stroke
 			(width 0)
@@ -4261,7 +4389,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 100.33) (xy 162.56 106.68)
+			(xy 162.56 102.235) (xy 162.56 106.68)
 		)
 		(stroke
 			(width 0)
@@ -4481,7 +4609,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 133.35) (xy 163.83 133.35)
+			(xy 199.39 145.415) (xy 205.74 145.415)
 		)
 		(stroke
 			(width 0)
@@ -4521,6 +4649,16 @@
 	)
 	(wire
 		(pts
+			(xy 203.835 106.68) (xy 205.74 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f13edca2-df15-4b87-9670-2d8924605f2a")
+	)
+	(wire
+		(pts
 			(xy 263.525 112.395) (xy 270.51 112.395)
 		)
 		(stroke
@@ -4528,6 +4666,16 @@
 			(type default)
 		)
 		(uuid "f2f66e23-7ef5-479b-a910-fd93a5a31f42")
+	)
+	(wire
+		(pts
+			(xy 236.22 134.62) (xy 239.395 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3ce5a48-2a59-458a-8de6-c8ebdafd1271")
 	)
 	(wire
 		(pts
@@ -4619,8 +4767,8 @@
 		)
 		(uuid "09b0b549-73ea-4b5a-819f-d7b3219d26d3")
 	)
-	(label "CAN +"
-		(at 157.48 133.35 0)
+	(label "CAN+"
+		(at 199.39 145.415 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4649,7 +4797,7 @@
 		)
 		(uuid "1ca17bcb-5d51-4c36-912c-5a3db1ba3092")
 	)
-	(label "CAN +"
+	(label "CAN+"
 		(at 270.51 36.195 0)
 		(effects
 			(font
@@ -4670,7 +4818,7 @@
 		(uuid "201b641b-4cbc-48cb-8f01-0a4dcfba6356")
 	)
 	(label "SWO"
-		(at 193.04 142.24 180)
+		(at 239.395 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4680,7 +4828,7 @@
 		(uuid "26c24ae1-3b14-4c37-ab83-a02fbb901b46")
 	)
 	(label "URAT_RX"
-		(at 220.345 151.13 0)
+		(at 266.7 148.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4720,7 +4868,7 @@
 		(uuid "438f8778-7d93-4032-8af1-1ca8b5b6f322")
 	)
 	(label "SWCLK"
-		(at 220.98 137.16 0)
+		(at 267.335 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4729,7 +4877,7 @@
 		)
 		(uuid "43b3820a-5506-4aa4-8ca9-0011eec24e1d")
 	)
-	(label "CAN -"
+	(label "CAN-"
 		(at 269.875 33.655 0)
 		(effects
 			(font
@@ -4770,7 +4918,7 @@
 		(uuid "54b3f4cc-8f61-46d9-a19f-9c4450a38b6c")
 	)
 	(label "SWDIO"
-		(at 220.98 142.24 0)
+		(at 267.335 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4780,7 +4928,7 @@
 		(uuid "55c6685c-fba0-4ad2-bb5c-7a8ba0839da4")
 	)
 	(label "NRST"
-		(at 193.04 137.16 180)
+		(at 236.22 134.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4809,7 +4957,7 @@
 		)
 		(uuid "63a30b7a-78c6-4830-8a3c-0702b9163475")
 	)
-	(label "CAN +"
+	(label "CAN+"
 		(at 270.51 114.935 180)
 		(effects
 			(font
@@ -5049,7 +5197,7 @@
 		)
 		(uuid "d0c12ad2-fdb3-4c0a-9b36-b967a7c80833")
 	)
-	(label "CAN -"
+	(label "CAN-"
 		(at 270.51 112.395 180)
 		(effects
 			(font
@@ -5060,7 +5208,7 @@
 		(uuid "d41246a0-9ed7-497f-97b0-a6053de43791")
 	)
 	(label "GND_ISO"
-		(at 175.895 137.795 0)
+		(at 217.805 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5080,7 +5228,7 @@
 		(uuid "da9ef40f-24db-4b38-ae18-8a26eac871db")
 	)
 	(label "URAT_TX"
-		(at 220.345 156.21 0)
+		(at 266.7 153.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5119,8 +5267,8 @@
 		)
 		(uuid "f6c170bd-0b0e-49ac-9af7-55edbd1195f3")
 	)
-	(label "CAN -"
-		(at 188.595 133.35 180)
+	(label "CAN-"
+		(at 230.505 145.415 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5128,6 +5276,73 @@
 			(justify right bottom)
 		)
 		(uuid "fcf17f4e-a3cd-4260-b3d7-9cf1e0d41588")
+	)
+	(symbol
+		(lib_id "Connector:TestPoint_Small")
+		(at 203.835 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "04ac2e74-1f05-47d1-abd7-c905a470b218")
+		(property "Reference" "TP3"
+			(at 202.565 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint_Small"
+			(at 205.74 107.9499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 208.915 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.915 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 203.835 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "01d24c0c-01b1-4b1b-9a92-8ca33372144e")
+		)
+		(instances
+			(project "TireTempSensor_v2.0"
+				(path "/6e95e1be-fdd6-40ae-a4f8-5c53e6058d6c"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
@@ -5197,7 +5412,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 193.04 139.7 270)
+		(at 239.395 137.16 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5205,7 +5420,7 @@
 		(dnp no)
 		(uuid "0f62d77b-0951-4a7b-952b-0e3d5518cfa3")
 		(property "Reference" "#PWR0149"
-			(at 186.69 139.7 0)
+			(at 233.045 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5214,7 +5429,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 187.96 139.7 90)
+			(at 234.315 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5222,7 +5437,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 139.7 0)
+			(at 239.395 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5231,7 +5446,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 139.7 0)
+			(at 239.395 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5240,7 +5455,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 193.04 139.7 0)
+			(at 239.395 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5705,13 +5920,14 @@
 		)
 		(pin "10"
 			(uuid "55f9156e-2ddd-4419-9b36-e368d40b81b2")
+			(alternate "USART2_RX")
 		)
 		(pin "6"
 			(uuid "ffc590a4-3a3a-4a8b-908c-e99cefcfa560")
 		)
 		(pin "9"
 			(uuid "15bc18eb-2585-47b5-b10b-23127f0160e0")
-			(alternate "SPI1_MOSI")
+			(alternate "USART2_TX")
 		)
 		(pin "4"
 			(uuid "c9ad7724-c181-438f-a8d2-4621452979f8")
@@ -6260,7 +6476,7 @@
 	)
 	(symbol
 		(lib_id "D5V0P4UR6SO-7:D5V0P4UR6SO-7")
-		(at 192.405 151.13 0)
+		(at 238.76 148.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6269,7 +6485,7 @@
 		(fields_autoplaced yes)
 		(uuid "7856b2df-a289-4d2c-a5f8-b83fa479c860")
 		(property "Reference" "D8"
-			(at 206.375 143.51 0)
+			(at 252.73 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6277,7 +6493,7 @@
 			)
 		)
 		(property "Value" "Quad TVS"
-			(at 206.375 146.05 0)
+			(at 252.73 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6285,7 +6501,7 @@
 			)
 		)
 		(property "Footprint" "SOT95P285X140-6N"
-			(at 216.535 246.05 0)
+			(at 262.89 243.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6295,7 +6511,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/D5V0P4UR6SO.pdf"
-			(at 216.535 346.05 0)
+			(at 262.89 343.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6305,7 +6521,7 @@
 			)
 		)
 		(property "Description" "ESD Suppressors / TVS Diodes General Protection PP"
-			(at 192.405 151.13 0)
+			(at 238.76 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6314,7 +6530,7 @@
 			)
 		)
 		(property "Height" "1.4"
-			(at 216.535 546.05 0)
+			(at 262.89 543.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6324,7 +6540,7 @@
 			)
 		)
 		(property "Mouser Part Number" "621-D5V0P4UR6SO-7"
-			(at 216.535 646.05 0)
+			(at 262.89 643.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6334,7 +6550,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/D5V0P4UR6SO-7?qs=rN85NNvew%2FSjbewGRfhy7A%3D%3D"
-			(at 216.535 746.05 0)
+			(at 262.89 743.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6344,7 +6560,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 216.535 846.05 0)
+			(at 262.89 843.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6354,7 +6570,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "D5V0P4UR6SO-7"
-			(at 216.535 946.05 0)
+			(at 262.89 943.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6520,7 +6736,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 220.345 153.67 90)
+		(at 266.7 151.13 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6528,7 +6744,7 @@
 		(dnp no)
 		(uuid "860d5a89-f502-46a7-b9d8-37a706005985")
 		(property "Reference" "#PWR0151"
-			(at 226.695 153.67 0)
+			(at 273.05 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6537,7 +6753,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 225.425 153.67 90)
+			(at 271.78 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6545,7 +6761,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.345 153.67 0)
+			(at 266.7 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6554,7 +6770,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.345 153.67 0)
+			(at 266.7 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6563,7 +6779,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 220.345 153.67 0)
+			(at 266.7 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6650,7 +6866,7 @@
 	)
 	(symbol
 		(lib_id "D5V0P4UR6SO-7:D5V0P4UR6SO-7")
-		(at 193.04 137.16 0)
+		(at 239.395 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6659,7 +6875,7 @@
 		(fields_autoplaced yes)
 		(uuid "932b6181-1dc8-4dd0-8219-0816dcd46268")
 		(property "Reference" "D7"
-			(at 207.01 129.54 0)
+			(at 253.365 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6667,7 +6883,7 @@
 			)
 		)
 		(property "Value" "Quad TVS"
-			(at 207.01 132.08 0)
+			(at 253.365 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6675,7 +6891,7 @@
 			)
 		)
 		(property "Footprint" "SOT95P285X140-6N"
-			(at 217.17 232.08 0)
+			(at 263.525 229.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6685,7 +6901,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.diodes.com//assets/Datasheets/D5V0P4UR6SO.pdf"
-			(at 217.17 332.08 0)
+			(at 263.525 329.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6695,7 +6911,7 @@
 			)
 		)
 		(property "Description" "ESD Suppressors / TVS Diodes General Protection PP"
-			(at 193.04 137.16 0)
+			(at 239.395 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6704,7 +6920,7 @@
 			)
 		)
 		(property "Height" "1.4"
-			(at 217.17 532.08 0)
+			(at 263.525 529.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6714,7 +6930,7 @@
 			)
 		)
 		(property "Mouser Part Number" "621-D5V0P4UR6SO-7"
-			(at 217.17 632.08 0)
+			(at 263.525 629.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6724,7 +6940,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/D5V0P4UR6SO-7?qs=rN85NNvew%2FSjbewGRfhy7A%3D%3D"
-			(at 217.17 732.08 0)
+			(at 263.525 729.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6734,7 +6950,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 217.17 832.08 0)
+			(at 263.525 829.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6744,7 +6960,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "D5V0P4UR6SO-7"
-			(at 217.17 932.08 0)
+			(at 263.525 929.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6847,7 +7063,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 192.405 156.21 90)
+		(at 238.76 153.67 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6856,7 +7072,7 @@
 		(fields_autoplaced yes)
 		(uuid "9cdf70b6-d457-4a10-a419-bef3a855a468")
 		(property "Reference" "#PWR0145"
-			(at 196.215 156.21 0)
+			(at 242.57 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6865,7 +7081,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 188.595 156.2099 90)
+			(at 234.95 153.6699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6874,7 +7090,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 192.405 156.21 0)
+			(at 238.76 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6883,7 +7099,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 192.405 156.21 0)
+			(at 238.76 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6892,7 +7108,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 192.405 156.21 0)
+			(at 238.76 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6981,7 +7197,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 220.98 139.7 90)
+		(at 267.335 137.16 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6989,7 +7205,7 @@
 		(dnp no)
 		(uuid "a4a1c33a-9fd9-432c-bc8f-f55ea8f87feb")
 		(property "Reference" "#PWR0150"
-			(at 227.33 139.7 0)
+			(at 273.685 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6998,7 +7214,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 226.06 139.7 90)
+			(at 272.415 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7006,7 +7222,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 139.7 0)
+			(at 267.335 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7015,7 +7231,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 139.7 0)
+			(at 267.335 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7024,7 +7240,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 220.98 139.7 0)
+			(at 267.335 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7045,7 +7261,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_TVS_Dual_AAC")
-		(at 172.72 133.35 0)
+		(at 214.63 145.415 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7054,7 +7270,7 @@
 		(fields_autoplaced yes)
 		(uuid "a8f4e9e4-fd77-4281-a69d-62ea6c988139")
 		(property "Reference" "D9"
-			(at 172.72 127.635 0)
+			(at 214.63 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7062,7 +7278,7 @@
 			)
 		)
 		(property "Value" "D_TVS_Dual_AAC"
-			(at 172.72 130.175 0)
+			(at 214.63 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7070,7 +7286,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
-			(at 168.91 133.35 0)
+			(at 210.82 145.415 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7079,7 +7295,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Micro-Commercial-Components-MCC/ESDLSB5V0LTBA-TP?qs=CoAU%2FpHVZXx%252BwdVOEDWyUg%3D%3D"
-			(at 168.91 133.35 0)
+			(at 210.82 145.415 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7088,7 +7304,7 @@
 			)
 		)
 		(property "Description" "Bidirectional dual transient-voltage-suppression diode, center on pin 3"
-			(at 172.72 133.35 0)
+			(at 214.63 145.415 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7312,7 +7528,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 162.56 100.33 0)
+		(at 162.56 102.235 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7321,7 +7537,7 @@
 		(fields_autoplaced yes)
 		(uuid "ce86fab3-a600-4246-a97c-01fe15ce1032")
 		(property "Reference" "#PWR0118"
-			(at 162.56 104.14 0)
+			(at 162.56 106.045 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7330,7 +7546,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 162.56 95.25 0)
+			(at 162.56 97.155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7338,7 +7554,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 100.33 0)
+			(at 162.56 102.235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7347,7 +7563,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 100.33 0)
+			(at 162.56 102.235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7356,7 +7572,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 162.56 100.33 0)
+			(at 162.56 102.235 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7579,7 +7795,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 192.405 153.67 270)
+		(at 238.76 151.13 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7587,7 +7803,7 @@
 		(dnp no)
 		(uuid "ee0e111d-e85a-43c9-8a07-303c87d69157")
 		(property "Reference" "#PWR0152"
-			(at 186.055 153.67 0)
+			(at 232.41 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7596,7 +7812,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 187.325 153.67 90)
+			(at 233.68 151.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7604,7 +7820,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 192.405 153.67 0)
+			(at 238.76 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7613,7 +7829,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 192.405 153.67 0)
+			(at 238.76 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7622,7 +7838,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 192.405 153.67 0)
+			(at 238.76 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)

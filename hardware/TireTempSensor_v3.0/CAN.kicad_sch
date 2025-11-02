@@ -2629,7 +2629,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder"
 			(at 137.033 31.115 90)
 			(effects
 				(font
@@ -2638,7 +2638,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Eaton-Electronics/MFBW1V1608-202-R?qs=W%2FMpXkg%252BdQ4ShGRk3jgFwA%3D%3D"
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Fair-Rite/2508052027Y1?qs=paL1wOLBYNcCgyNDp2sTMQ%3D%3D"
 			(at 135.255 31.115 0)
 			(effects
 				(font
@@ -3033,7 +3033,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder"
 			(at 133.223 31.115 90)
 			(effects
 				(font
@@ -3042,7 +3042,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Eaton-Electronics/MFBW1V1608-202-R?qs=W%2FMpXkg%252BdQ4ShGRk3jgFwA%3D%3D"
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Fair-Rite/2508052027Y1?qs=paL1wOLBYNcCgyNDp2sTMQ%3D%3D"
 			(at 131.445 31.115 0)
 			(effects
 				(font
@@ -3168,9 +3168,10 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder"
 			(at 74.295 77.343 90)
 			(effects
 				(font
@@ -3179,7 +3180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Eaton-Electronics/MFBW1V1608-202-R?qs=W%2FMpXkg%252BdQ4ShGRk3jgFwA%3D%3D"
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Fair-Rite/2508052027Y1?qs=paL1wOLBYNcCgyNDp2sTMQ%3D%3D"
 			(at 74.295 75.565 0)
 			(effects
 				(font
@@ -3496,14 +3497,15 @@
 			)
 		)
 		(property "Value" "2K@100MHz"
-			(at 73.025 84.455 90)
+			(at 67.945 84.455 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.05x1.20mm_HandSolder"
 			(at 74.295 82.423 90)
 			(effects
 				(font
@@ -3512,7 +3514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Eaton-Electronics/MFBW1V1608-202-R?qs=W%2FMpXkg%252BdQ4ShGRk3jgFwA%3D%3D"
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Fair-Rite/2508052027Y1?qs=paL1wOLBYNcCgyNDp2sTMQ%3D%3D"
 			(at 74.295 80.645 0)
 			(effects
 				(font
