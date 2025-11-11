@@ -68,6 +68,10 @@
         [
           "courtyards_overlap|154292448|90095000|0174afde-51b3-4574-abee-365e2169f568|c8543a18-9033-42a4-a994-03b0570fe685",
           ""
+        ],
+        [
+          "starved_thermal|125800000|97137499|f1b1abc0-c41e-405d-aea1-c75b7d1135dd|c0fc5125-2e7d-4a73-b5aa-fa8afbb72d08|F.Cu",
+          ""
         ]
       ],
       "meta": {
@@ -523,7 +527,7 @@
         "wire_width": 6
       },
       {
-        "clearance": 0.3,
+        "clearance": 0.4,
         "diff_pair_gap": 0.22,
         "diff_pair_width": 0.13,
         "microvia_diameter": 0.3,
