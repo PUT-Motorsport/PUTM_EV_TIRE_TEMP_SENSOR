@@ -70,6 +70,10 @@
           ""
         ],
         [
+          "starved_thermal|105600000|103037499|61b6d58f-3658-449d-a5d5-1ff37d0d14eb|ca4eadb6-5371-4e39-b4cf-739a0eec1e73|F.Cu",
+          ""
+        ],
+        [
           "starved_thermal|125800000|97137499|f1b1abc0-c41e-405d-aea1-c75b7d1135dd|c0fc5125-2e7d-4a73-b5aa-fa8afbb72d08|F.Cu",
           ""
         ]
@@ -210,6 +214,7 @@
       "track_widths": [
         0.0,
         0.1,
+        0.13,
         0.2,
         0.3,
         0.5,

@@ -7,4 +7,5 @@
   (lib (name "ISO1042QDWRQ1")(type "KiCad")(uri "${KIPRJMOD}/include/symbol/ISO1042QDWRQ1.kicad_sym")(options "")(descr ""))
   (lib (name "PUSB3AB6Z")(type "KiCad")(uri "${KIPRJMOD}/include/symbol/PUSB3AB6Z.kicad_sym")(options "")(descr ""))
   (lib (name "D5V0P4UR6SO-7")(type "KiCad")(uri "${KIPRJMOD}/include/symbol/D5V0P4UR6SO-7.kicad_sym")(options "")(descr ""))
+  (lib (name "DR331-513AE")(type "KiCad")(uri "${KIPRJMOD}/include/symbol/DR331-513AE.kicad_sym")(options "")(descr ""))
 )
