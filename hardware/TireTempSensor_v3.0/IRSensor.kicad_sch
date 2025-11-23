@@ -1820,7 +1820,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Fair-Rite/2506036007Y3?qs=paL1wOLBYNeZ9pzUf9rXjA%3D%3D"
 			(at 125.73 95.25 0)
 			(effects
 				(font

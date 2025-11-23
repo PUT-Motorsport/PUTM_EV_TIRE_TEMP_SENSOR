@@ -1954,9 +1954,9 @@
 		)
 		(uuid "a2fc6937-739f-4a71-800d-3396c2353342")
 	)
-	(text "60 OHM , 4.7nF = 1.1MHz cutoff"
+	(text "60 OHM , 1nF = 5.3MHz cutoff\n(60/2 = 30R - for calculations) \n"
 		(exclude_from_sim no)
-		(at 51.435 43.815 0)
+		(at 50.8 43.815 0)
 		(effects
 			(font
 				(size 0.9 0.9)
@@ -2208,7 +2208,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.975 45.72) (xy 53.975 48.26)
+			(xy 53.975 45.72) (xy 53.975 47.625)
 		)
 		(stroke
 			(width 0)
@@ -2235,6 +2235,16 @@
 			(type default)
 		)
 		(uuid "28f9d198-0690-4cc0-b5e3-145ce94725ab")
+	)
+	(wire
+		(pts
+			(xy 53.975 52.705) (xy 53.975 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2efe8daa-b7d8-4540-95b8-4919c6d6b8a9")
 	)
 	(wire
 		(pts
@@ -2408,7 +2418,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.975 59.69) (xy 53.975 61.595)
+			(xy 53.975 60.325) (xy 53.975 61.595)
 		)
 		(stroke
 			(width 0)
@@ -2508,7 +2518,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.975 53.34) (xy 53.975 54.61)
+			(xy 53.975 53.34) (xy 53.975 55.245)
 		)
 		(stroke
 			(width 0)
@@ -6114,7 +6124,43 @@
 			"AE4ASABhADMAaQA3AEkAcwBOADIAOABnADUAdQBQAHQANAB0AEMAZwBKAEIAVQAwADMASAA4ADQA"
 			"QwBEAGEAcABFAEwAQQBYAEQATgBxAGUAVwBRAGUAbQBCAEoAcQBUAFEAQQBBAEUAbABnADUAKwB3"
 			"AFQAVwA5AHYAZAAwAE4ATQB3AEsAeQB0AEEAeAArADUANQBVAGsAawBsAEsAMQBEACsAYwBWAGMA"
-			"MQAxAGQASwBYAFYAdwBtAHEAdgAvAHQAegBaAFMAWQBBAEEARQBLAFYAUQArAFIAaQB1AA=="
+			"MQAxAGQASwBYAFYAdwBtAHEAdgAvAHQAegBaAFMAWQBBAEEARQBLAFYAUQArAFIAaQB1AFIAUQBZ"
+			"ADUAVwA0AHQAcABzAGIAVQA2AHYATwAyAFkARgBXAGMAZQByAFkAawBIAEEAcQBqAHcAMABjAGUA"
+			"SwBiAHAARgAyAGYATQBuAEkAZAB1AEYAdQB0AGgASwBhAEUAcwBnAGMAWABPAHYARQBEAGYAagB5"
+			"AHoAdwB2AHAAdQB0AHcAZABnADEAUwBBAFMATgBXAEkAegBaAG0ANABrAHYAbwBIAFkANgB4AC8A"
+			"ZABPAHEAMwBDAGQAMwBxAGUAegBsAFoAQwBRAFUAeQBSACsAKwBtAEEANgBaAHUAdgBiAHgAegBt"
+			"AEEAdABaAFAAZgBVAFAAeABqAGoAbgA5AHQAWgBwAEEAeQBNAEQAVgBkAFoAaQBXAG0AUwBqAHIA"
+			"dABOAHAAOQBHAC8AbgBVAHQAZgAzAHQAQQBGAEUAZQBSAFgAdgA3ADEANgBPAEQAdgA5AE4AOQBR"
+			"AC8ARwBiAE0ARwA5AFgAYgBNAEcAeAA0AFEANABXADQAdABvAHMAVQBKAFYASgAyAGIAWQAvAEEA"
+			"TwBQAHMAcQA5AE0AQwBhADIAZQArAGcAYwB6AFcAYQBmAG4AOQBnAHYAVABXAE4ATQBFAEEAawBY"
+			"AFEAcABJAHUAbQB1AG0ARQBlAEwAVwB3AEgAQwBKAEMAeQA4AFgAYwBWAGIAMAA5AHUAUQBzAGsA"
+			"WQBzAGEAVAArAHcAWgBpAHoAcgA1AFkARAA4AC8AegB5AHEAcwBsADkASQB3AEoAVgAxAG0ASwBh"
+			"AEYAaQBzADAAWQBhADAALwBuAEwAZgB2AGcAYwBrAE4ATwBLAFkAZwBvADYASgBxAFIAYwArADkA"
+			"ZABtAEgAWgBxAEwAYgBCAHoAdABaAEMAcwBkAHoASgB2ADEASAAzAEsAYwB0AE8AUAB6AE4AVABo"
+			"AFEAVQA1AHIAVABMAHgAeQByAEIATwBlAFQAbQBIAFEANQBKAC8AegBmAG8ASABZADMAMwBTAEQA"
+			"LwBWAEYAQwBFAFQASwBQAHQAdABlAGwAdgBvAG4AdAAvAEEAdgBjADIATABLAHUANwAvAG4AMgAy"
+			"AEUAeAB0AGQAWABXAEkAbABwAGsAcQB3AHAAdQBNADMAVABPADQAWQBmAGEAOAAxAC8ANQBsADYA"
+			"aAAvAE0ASwBlAE0AVwBnAEgAWgBWAHoAWgA5AE4AVABDADIAcgByAHQAUwBKAHEAUQBvAGsAVgB6"
+			"AHAARgBkAGIAbQB3ADIAawBiAEUAbwB0AEQAeQBwAEwANgBCADMATwBlAFQANwBtAE0AcgBrAHkA"
+			"MQBZAFAAMgBUAFkAdwBrAFQAdQBqAFQAMAByAEMAVQBYAEMAbQBVAE8AZgBrADMAaQBaAHoAMQAx"
+			"ADgAdQAvAHoAMgBrADQANQBoAHcANwBsAG8ARgByADEASQAyAHIAVABBAGoAYQB5AHEAWABSACsA"
+			"UwB0AEwASgBvADQALwB6ADgASgA0AGoAZAA4AEcAbQBiAGwAdwBMAHQAdwBwAGkAVgBTAFEAVwBB"
+			"AFEASwBzAHoAUwAwAC8ARAB4AEoARgBZAG0AVgBsAHMAUwBBAHIAawBYAHoAMAAyAFIAbAA1AEcA"
+			"RQBpAHAAdABGAG8AMgBEAGkAQQBrAFkAaABFAEMAUgBQAGwATwAzAEgAOQA1AFUAbgBoAEYAYwAy"
+			"AEYAVgBGADQAbgBWAEkAQQBOAHIASgBaAGMAaABBAEYAMQBPAFYAagBZAEcAOAA2AGQANAByAEQA"
+			"YgBmAHQAQgA0AHMAUwBwAFkAbABuAG0ATQBDAFcAMQBCAG8AKwBoADAAbgBkADkALwBtAEcAbABm"
+			"AGMASQAxAEUAZQBOAGIAQwBqACsANABvAEYAZAAzAFoAdgAzAFoAZgBUAHUAdgAzAFYAOQBaAHQA"
+			"dQA2AFUAbAAxADYAMQA2AHgAOABrAHIATwBlAHoAdABZAEYAdgBVAGwAcwBkAEMAQgBsAGUAMwA2"
+			"AHgAeQBtADMAcgByAHUANABhAGYAdgAxAHoANwB6AGQAZAAyAC8AWQBsAFEATgAwADMAVQA3AHgA"
+			"WQBjAFkAdQBBAEoAeABkAHQAUAB5AHAAVwBIADkAMQBZAFkAZQBZAFUAWAA4ADkAWgBRAGgAYgAx"
+			"AC8AcAB0AEcANABiADYAKwAvAHIANgBCADQAYQBFAE4AMgB5AGcAMwBOAC8ASgBkAGMAaABmAEYA"
+			"ZwA2AHYASgBOAHkATQBiAHAAawBNACsAdgB6ADgAMABrAHUATAAvAEsAeQBzAFEAZwB4AFcATQBt"
+			"AHMAcgBnAHYAcwBGAE8AUwBTAGMASwBsAEIAeAB3AHEAKwBxAEkANQBXADYAbQAxAFEAcwBBAFEA"
+			"QgA5AGIAbABZAE8AQwB5AFcAVwBaAFYAaQBmAG4AWgBrAEgAQwBNAGsAawBNAHMATwBmAG4ARwBZ"
+			"AEsAUQBpAG8AVgBZADgAQQA0AE4AegBzAEgAdwBOAEgAOABnAHQAcgA4AGcAcwBwAFYAVgBzADIA"
+			"dQBWAFcAVgA1AHkAcQBNAHEAcwB3AFgAVwA1AHUAZQBXADQAWQB6AFoAZwBBAEYASgByAGUAVwBJ"
+			"AHMANQBVAEwARQByAG0ATwByAG4AbwBuAGUAdQBBAFUAcABGAFgAMQBWAFkAdQBXAEUAMgA4AEIA"
+			"NwBwAG0AegB6AEwATwA1AHgAMQBwADUAMAB5ADEAagBtAEcANAA1AEQAQgBqAGoAZgBHAA=="
 		)
 	)
 	(label "CAN_internal+"
@@ -6272,7 +6318,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "4.7n"
+		(property "Value" "1p"
 			(at 50.165 50.165 90)
 			(effects
 				(font
@@ -6290,7 +6336,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/KYOCERA-AVX/600F1R0BT250XT?qs=AdTq2PFIamnDU0W8oIpjSQ%3D%3D"
 			(at 49.53 53.34 0)
 			(effects
 				(font
@@ -6357,7 +6403,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Murata-Electronics/GRM21BR61A476ME15L?qs=hNud%2FORuBR2%2FEB7WUpdltg%3D%3D"
 			(at 118.745 37.465 0)
 			(effects
 				(font
@@ -6492,7 +6538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Murata-Electronics/GRM21BR61A476ME15L?qs=hNud%2FORuBR2%2FEB7WUpdltg%3D%3D"
 			(at 150.495 26.035 0)
 			(effects
 				(font
@@ -6527,7 +6573,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 53.975 57.15 180)
+		(at 53.975 57.785 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6535,7 +6581,7 @@
 		(dnp no)
 		(uuid "186671bb-48ec-48a3-ac62-b2a54161f851")
 		(property "Reference" "R26"
-			(at 51.435 59.69 90)
+			(at 51.435 60.325 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6544,7 +6590,7 @@
 			)
 		)
 		(property "Value" "60R"
-			(at 57.15 57.15 0)
+			(at 57.15 57.785 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6552,7 +6598,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 53.975 57.15 0)
+			(at 53.975 57.785 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6560,8 +6606,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 53.975 57.15 0)
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/TE-Connectivity-Holsworthy/CPF0603F60R4C1?qs=n4i9pByFsMSD4ac4Ep%252BAIw%3D%3D"
+			(at 53.975 57.785 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6570,7 +6616,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 53.975 57.15 0)
+			(at 53.975 57.785 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6630,7 +6676,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ADM3055E-3057E.pdf"
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Analog-Devices/ADM3057EBRWZ?qs=PqoDHHvF649%2FWAcdgp0Vvw%3D%3D"
 			(at 116.205 56.515 0)
 			(effects
 				(font
@@ -6822,7 +6868,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Murata-Electronics/GRM21BR61A476ME15L?qs=hNud%2FORuBR2%2FEB7WUpdltg%3D%3D"
 			(at 65.405 78.105 0)
 			(effects
 				(font
@@ -6892,7 +6938,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Murata-Electronics/GRM21BR61A476ME15L?qs=hNud%2FORuBR2%2FEB7WUpdltg%3D%3D"
 			(at 83.185 78.105 0)
 			(effects
 				(font
@@ -7225,7 +7271,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Knowles-Dielectric-Labs/0805Y0500183KXT?qs=uSBwRNbpOOIY%252BwsPomhDJQ%3D%3D"
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/KYOCERA-AVX/08051A500GAT2A?qs=Opzbdpd8BSZ0Jytbn27Phg%3D%3D"
 			(at 33.655 50.8 0)
 			(effects
 				(font
@@ -7523,7 +7569,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 53.975 50.8 180)
+		(at 53.975 50.165 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7531,7 +7577,7 @@
 		(dnp no)
 		(uuid "9eb027f7-527d-468c-8575-55cf777221b0")
 		(property "Reference" "R25"
-			(at 51.435 53.34 90)
+			(at 51.435 52.705 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7540,7 +7586,7 @@
 			)
 		)
 		(property "Value" "60R"
-			(at 57.15 50.8 0)
+			(at 57.15 50.165 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7548,7 +7594,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 53.975 50.8 0)
+			(at 53.975 50.165 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7556,8 +7602,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 53.975 50.8 0)
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/TE-Connectivity-Holsworthy/CPF0603F60R4C1?qs=n4i9pByFsMSD4ac4Ep%252BAIw%3D%3D"
+			(at 53.975 50.165 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7566,7 +7612,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 53.975 50.8 0)
+			(at 53.975 50.165 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7624,7 +7670,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Knowles-Dielectric-Labs/0805Y0500183KXT?qs=uSBwRNbpOOIY%252BwsPomhDJQ%3D%3D"
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/KYOCERA-AVX/08051A500GAT2A?qs=Opzbdpd8BSZ0Jytbn27Phg%3D%3D"
 			(at 33.655 58.42 0)
 			(effects
 				(font
@@ -7829,7 +7875,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Vishay-Vitramon/VJ0603D1R0BXPAJ?qs=f%252BL2SN1Gfcun1bEHWO%2FG%252Bw%3D%3D"
 			(at 150.495 37.465 0)
 			(effects
 				(font
@@ -8096,7 +8142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Vishay-Vitramon/VJ0603D1R0BXPAJ?qs=f%252BL2SN1Gfcun1bEHWO%2FG%252Bw%3D%3D"
 			(at 59.055 90.805 0)
 			(effects
 				(font
@@ -8164,7 +8210,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Murata-Electronics/GRM21BR61A476ME15L?qs=hNud%2FORuBR2%2FEB7WUpdltg%3D%3D"
 			(at 118.745 26.035 0)
 			(effects
 				(font

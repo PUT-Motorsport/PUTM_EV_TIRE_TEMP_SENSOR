@@ -5194,7 +5194,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://abracon.com/datasheets/ATX-11.pdf"
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/ABRACON/ATX-11-F-32.000MHz-F05-T?qs=iLbezkQI%252BsgUO3myvlQBdA%3D%3D"
 			(at 196.85 301.6 0)
 			(effects
 				(font
@@ -5455,7 +5455,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32g0c1kc.pdf"
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/STMicroelectronics/STM32G0C1KCT6N?qs=iLbezkQI%252Bshu4f%252BBp0CpFw%3D%3D"
 			(at 76.2 127.635 0)
 			(effects
 				(font
@@ -5937,7 +5937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Walsin/0603N6R0C500CT?qs=ZrPdAQfJ6DO7TfpmVhz1%2Fg%3D%3D"
 			(at 205.74 110.49 0)
 			(effects
 				(font
@@ -6005,7 +6005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://suddendocs.samtec.com/prints/ftsh-1xx-xx-xxx-d-xxx-xx-mkt.pdf"
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Samtec/FTSH-107-01-FM-DV?qs=Cqqh%252BS766wnslzgHTe%252Bg8A%3D%3D"
 			(at 259.08 304.14 0)
 			(effects
 				(font
@@ -7498,7 +7498,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Vishay-Semiconductors/BAT42W-E3-18?qs=KP8Io%2FXyE5RJtHd7xrj%252BBQ%3D%3D"
 			(at 36.83 57.15 0)
 			(effects
 				(font
@@ -7892,7 +7892,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.pl/ProductDetail/Murata-Electronics/GRM188R6YA475KE15D?qs=eeBpzGFlv%252B%2FTEUAkSXFIlg%3D%3D"
 			(at 37.465 36.83 0)
 			(effects
 				(font
