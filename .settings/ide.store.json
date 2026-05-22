@@ -1,0 +1,9 @@
+{
+  "source": {
+    "sourceType": "STM32CubeMX"
+  },
+  "device": "STM32G0C1KCT6N",
+  "core": "Cortex-M0+",
+  "order": 0,
+  "toolchain": "GCC"
+}
