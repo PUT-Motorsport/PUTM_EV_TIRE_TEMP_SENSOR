@@ -38,6 +38,8 @@ enable_language(C ASM CXX)
 # Create an executable object type
 add_executable(${CMAKE_PROJECT_NAME})
 
+set(PUTM_CAN_BACKEND "STM32" CACHE STRING "Select backend" FORCE)
+
 # Add STM32CubeMX generated sources
 add_subdirectory(cmake/stm32cubemx)
 add_subdirectory(${PROJECT_SOURCE_DIR}/Core/Inc/PUTM_EV_CAN_LIBRARY)
@@ -68,14 +70,13 @@ target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
 target_compile_definitions(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user defined symbols
 )
-set ( PUTM_CAN_BACKEND " STM32 " CACHE STRING " Select backend " FORCE )
 # Remove wrong libob.a library dependency when using cpp files
 #list(REMOVE_ITEM CMAKE_C_IMPLICIT_LINK_LIBRARIES ob)
 
 # Add linked libraries
 target_link_libraries(${CMAKE_PROJECT_NAME}
     stm32cubemx
-    putm_ev_can_library
+    putm_ev_can
     # Add user defined libraries
 )
 
