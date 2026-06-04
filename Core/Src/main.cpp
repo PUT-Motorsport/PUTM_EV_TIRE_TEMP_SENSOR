@@ -25,6 +25,10 @@
 #include "tim.h"
 #include "usart.h"
 #include "gpio.h"
+#include "PUTM_EV_CAN_LIBRARY/include/can_driver.hpp"
+#include "PUTM_EV_CAN_LIBRARY/database/generated/PUTM_CAN_M.h"
+
+//putm_ev_can :: CanDriver can_m;
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -33,8 +37,8 @@
 
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN PTD */
-#include "MLX90621_API.h"
-#include "MLX90621_I2C_Driver.h"
+//#include "MLX90621_API.h"
+//#include "MLX90621_I2C_Driver.h"
 
 // Structure to hold values extracted from EEPROM
 typedef struct {
@@ -58,9 +62,9 @@ static const float tr = 15.0f;
 
 static uint8_t mlx90621ToAverage[8] = {0};
 static uint8_t eeMLX90621[256]; // The 256-byte EEPROM dump array
-static paramsMLX90621 mlx90621;
-static uint16_t mlx90621Frame[66];
-static float mlx90621To[64];
+//static paramsMLX90621 mlx90621;
+//static uint16_t mlx90621Frame[66];
+//static float mlx90621To[64];
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/

@@ -8,9 +8,13 @@ cmake_minimum_required(VERSION 3.22)
 #
 
 # Setup compiler settings
-set(CMAKE_C_STANDARD 11)
+set(CMAKE_C_STANDARD 17)
 set(CMAKE_C_STANDARD_REQUIRED ON)
 set(CMAKE_C_EXTENSIONS ON)
+
+set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS ON)
 
 
 # Define the build type
@@ -36,7 +40,7 @@ add_executable(${CMAKE_PROJECT_NAME})
 
 # Add STM32CubeMX generated sources
 add_subdirectory(cmake/stm32cubemx)
-
+add_subdirectory(${PROJECT_SOURCE_DIR}/Core/Inc/PUTM_EV_CAN_LIBRARY)
 # Link directories setup
 target_link_directories(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user defined library search paths
@@ -45,34 +49,28 @@ target_link_directories(${CMAKE_PROJECT_NAME} PRIVATE
 # Add sources to executable
 target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user sources here
-    Core/Src/MLX90621_API.cpp
-    Core/Src/MLX90621_I2C_Driver.cpp
-    Core/Src/i2c_mod.c
+ 
 )
 
 # Dodanie biblioteki CAN ( upewnij sie , ze sciezka jest poprawna )
-add_subdirectory ( $ { PROJECT_SOURCE_DIR }/ Components / PUTM_EV_CAN_LIBRARY )
+# Library is already added above via Core/Inc/PUTM_EV_CAN_LIBRARY
 
 # Add include paths
 target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
-    # Add user defined include paths
+    "${PROJECT_SOURCE_DIR}/Core/Inc"
+    "${PROJECT_SOURCE_DIR}/Core/Inc" # Parent directory of PUTM_EV_CAN_LIBRARY
+    "${PROJECT_SOURCE_DIR}/Core/Inc/PUTM_EV_CAN_LIBRARY/include"
+    "${PROJECT_SOURCE_DIR}/Core/Inc/PUTM_EV_CAN_LIBRARY/database"
 )
-
-target_include_directories ( $ { CMAKE_PROJECT_NAME } PRIVATE
- "${ PROJECT_SOURCE_DIR }/ Core /Inc"
- "${ PROJECT_SOURCE_DIR }/ Components " # <- KATALOG N A D R Z D N Y BIBLIOTEKI ( WYMAGANE !)
- "${ PROJECT_SOURCE_DIR }/ Components / PUTM_EV_CAN_LIBRARY / include "
- "${ PROJECT_SOURCE_DIR }/ Components / PUTM_EV_CAN_LIBRARY /dbc / generated "
- )
 
 
 # Add project symbols (macros)
 target_compile_definitions(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user defined symbols
 )
-
+set ( PUTM_CAN_BACKEND " STM32 " CACHE STRING " Select backend " FORCE )
 # Remove wrong libob.a library dependency when using cpp files
-list(REMOVE_ITEM CMAKE_C_IMPLICIT_LINK_LIBRARIES ob)
+#list(REMOVE_ITEM CMAKE_C_IMPLICIT_LINK_LIBRARIES ob)
 
 # Add linked libraries
 target_link_libraries(${CMAKE_PROJECT_NAME}
