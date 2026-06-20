@@ -457,7 +457,7 @@ int main(void)
   /* USER CODE END 2 */
  putm_ev_can :: CanDriver can_m ;
  FDCAN_FilterTypeDef filter_config ;
- HAL_FDCAN_ConfigFilter (& hfdcan1 , & filter_config ) ;
+// HAL_FDCAN_ConfigFilter (& hfdcan1 , & filter_config ) ;
  if (! can_m . Init (& hfdcan1 ) ) {
     // Blad inicjalizacji (np. zablokowany sprzet )
     Error_Handler () ;
@@ -489,9 +489,18 @@ int main(void)
     Process_Horizontal_Zones(pixel_temp_obj, horizontal_zones);
     PUTM_CAN_M_tire_temp_rr_t tire_temp_msg = 
     {
-     .tire_temp_rr = horizontal_zones[1] , 
-     .heartbeat_rr = 1 
+    .tire_temp_rr_1 = horizontal_zones[0] , 
+    .tire_temp_rr_2 = horizontal_zones[1], 
+    .tire_temp_rr_3 = horizontal_zones[2],
+    .tire_temp_rr_4 = horizontal_zones[3],  
+    .tire_temp_rr_5 = horizontal_zones[4] , 
+    .tire_temp_rr_6 = horizontal_zones[5], 
+    .tire_temp_rr_7 = horizontal_zones[6],
+    .tire_temp_rr_8 = horizontal_zones[7], 
      };
+    if (! can_m . Send ( PUTM_CAN_M_TIRE_TEMP_RR_FRAME_ID , tire_temp_msg ) ) {
+    // np. zapal czerwona diode bledu na u k a d z i e TCA.
+    }
 
 
     HAL_Delay(1000);
