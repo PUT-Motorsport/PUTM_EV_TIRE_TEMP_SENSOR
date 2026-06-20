@@ -455,7 +455,13 @@ int main(void)
   ta_coeffs.KT2_H    = eeMLX90621[0xDF];
   ta_coeffs.KT_scale = eeMLX90621[0xD2];
   /* USER CODE END 2 */
-
+ putm_ev_can :: CanDriver can_m ;
+ FDCAN_FilterTypeDef filter_config ;
+ HAL_FDCAN_ConfigFilter (& hfdcan1 , & filter_config ) ;
+ if (! can_m . Init (& hfdcan1 ) ) {
+    // Blad inicjalizacji (np. zablokowany sprzet )
+    Error_Handler () ;
+ };
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   while (1)
@@ -478,8 +484,14 @@ int main(void)
    Calculate_To_All_Pixels(ir_frame_raw, current_Ta, comp_pixel_raw, eeMLX90621, sensor_resolution, pixel_temp_obj);
 
 
+  
   // Group into 8 horizontal zones, apply median filter
     Process_Horizontal_Zones(pixel_temp_obj, horizontal_zones);
+    PUTM_CAN_M_tire_temp_rr_t tire_temp_msg = 
+    {
+     .tire_temp_rr = horizontal_zones[1] , 
+     .heartbeat_rr = 1 
+     };
 
 
     HAL_Delay(1000);
