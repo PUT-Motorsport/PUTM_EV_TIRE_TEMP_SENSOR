@@ -377,6 +377,18 @@ void Process_Horizontal_Zones(float *pixel_temp_obj, float *horizontal_zones)
         horizontal_zones[zone] = Get_Median(filtered_temps, filtered_count);
     }
 }
+uint8_t Convert_Temp_To_Uint8(float temp) {
+    // Clamp to minimum boundary
+    if (temp <= 5.0f) {
+        return 10;
+    }
+    // Clamp to maximum boundary
+    if (temp >= 150.0f) {
+        return 150;
+    }
+    // Add 0.5 for standard mathematical rounding, then cast
+    return (uint8_t)(temp + 0.5f);
+}
 
 /* USER CODE END 0 */
 
@@ -484,24 +496,24 @@ int main(void)
    Calculate_To_All_Pixels(ir_frame_raw, current_Ta, comp_pixel_raw, eeMLX90621, sensor_resolution, pixel_temp_obj);
 
 
-  
   // Group into 8 horizontal zones, apply median filter
     Process_Horizontal_Zones(pixel_temp_obj, horizontal_zones);
+  // Group into 8 horizontal zones, apply median filter
     PUTM_CAN_M_tire_temp_rr_t tire_temp_msg = 
     {
-    .tire_temp_rr_1 = horizontal_zones[0] , 
-    .tire_temp_rr_2 = horizontal_zones[1], 
-    .tire_temp_rr_3 = horizontal_zones[2],
-    .tire_temp_rr_4 = horizontal_zones[3],  
-    .tire_temp_rr_5 = horizontal_zones[4] , 
-    .tire_temp_rr_6 = horizontal_zones[5], 
-    .tire_temp_rr_7 = horizontal_zones[6],
-    .tire_temp_rr_8 = horizontal_zones[7], 
-     };
-    if (! can_m . Send ( PUTM_CAN_M_TIRE_TEMP_RR_FRAME_ID , tire_temp_msg ) ) {
-    // np. zapal czerwona diode bledu na u k a d z i e TCA.
+        .tire_temp_rr_1 = Convert_Temp_To_Uint8(horizontal_zones[0]), 
+        .tire_temp_rr_2 = Convert_Temp_To_Uint8(horizontal_zones[1]), 
+        .tire_temp_rr_3 = Convert_Temp_To_Uint8(horizontal_zones[2]),
+        .tire_temp_rr_4 = Convert_Temp_To_Uint8(horizontal_zones[3]),  
+        .tire_temp_rr_5 = Convert_Temp_To_Uint8(horizontal_zones[4]), 
+        .tire_temp_rr_6 = Convert_Temp_To_Uint8(horizontal_zones[5]), 
+        .tire_temp_rr_7 = Convert_Temp_To_Uint8(horizontal_zones[6]),
+        .tire_temp_rr_8 = Convert_Temp_To_Uint8(horizontal_zones[7]), 
+    };
+     
+    if (!can_m.Send(PUTM_CAN_M_TIRE_TEMP_RR_FRAME_ID, tire_temp_msg)) {
+        // np. zapal czerwona diode bledu na ukladzie TCA.
     }
-
 
     HAL_Delay(1000);
   }
